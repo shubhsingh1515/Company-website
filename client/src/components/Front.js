@@ -26,7 +26,7 @@ const FrontPage = () => {
         </button>
       </div>
 
-      <div className="animated-image lg:w-1/2 sm:w-full relative px-6 py-6 mt-15">
+      <div className="animated-image lg:w-1/2 sm:w-full relative px-6 py-6 mt-15 ">
         {/* Display all images on large screens */}
         <div className="hidden lg:block">
           <a href="/voip-business-solutions" rel="noopener noreferrer">

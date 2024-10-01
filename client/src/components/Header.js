@@ -42,7 +42,7 @@ const Header = () => {
   }, []);
 
   return (
-<header className="bg-white w-full fixed top-0 left-0">
+<header className="bg-white w-full fixed top-0 left-0 z-50">
   <div className="max-w-7xl mx-auto">
     <nav className="flex justify-between p-6 lg:px-8" aria-label="Global">
       <a href="/" className="text-2xl font-bold mr-40">

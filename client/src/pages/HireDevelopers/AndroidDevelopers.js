@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Contact from "../../components/Contact.js";
 import { hireAndroidFaqs } from "../../components/faqData.js";
 import GetInTouch from "../../components/GetInTouch.js";
+import AyanshtechAdvantage from "../../components/AyanshtechAdvantage.js";
 
 const AndroidDevelopers = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -199,53 +200,7 @@ const AndroidDevelopers = () => {
         </div>
       </div>
 
-      <div className="text-center mb-16 mt-20">
-        <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Ayanshtech Advantage
-        </h2>
-        <p className="sm:text-base md:text-lg lg:text-xl text-gray-600  mt-4 max-w-6xl mx-auto">
-          With Ecosmob, you can hire skilled and certified developers at an
-          hourly, part-time, or full-time contract hiring arrangement.
-        </p>
-      </div>
-
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-7xl mx-auto">
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Agility with Focus on Quality
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Hire as per your requirement with our Flexible Hiring module
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Access to industry experts and developers
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            A rich ecosystem of experienced developers & tools
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Scale your resources as per your requirements
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Dedicated developers only charge for the project assigned to them
-          </p>
-        </div>
-        <div className="p-6 bg-white shadow-md rounded-lg">
-          <p className="sm:text-base md:text-lg lg:text-xl">
-            Agility with Focus on Quality
-          </p>
-        </div>
-      </div>
+      <AyanshtechAdvantage /> 
 
       <div className="max-w-3xl mx-auto p-6 py-20 w-full">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8">
@@ -256,7 +211,7 @@ const AndroidDevelopers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5" : ""
+                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>

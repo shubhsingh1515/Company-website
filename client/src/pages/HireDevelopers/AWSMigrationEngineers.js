@@ -3,6 +3,7 @@ import { AWSMigrationEngineersFaqs } from "../../components/faqData.js";
 
 import Contact from "../../components/Contact.js";
 import GetInTouch from "../../components/GetInTouch.js";
+import AyanshtechAdvantage from "../../components/AyanshtechAdvantage.js";
 
 const AWSMigrationEngineers = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -55,53 +56,54 @@ const AWSMigrationEngineers = () => {
       </div>
 
       <div className="bg-white p-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="flex items-start space-x-4">
-            <img
-              src="/assets/icons/consultancyDiscovery/1.svg"
-              alt="icon"
-              className="w-14 h-14"
-            />
-            <p className="text-lg">AWS Infrastructure Management</p>
-          </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="flex items-center space-x-4">
+      <img
+        src="/assets/icons/consultancyDiscovery/1.svg"
+        alt="icon"
+        className="w-14 h-14"
+      />
+      <p className="text-lg">AWS Infrastructure Management</p>
+    </div>
 
-          <div className="flex items-start space-x-4">
-            <img
-              src="/assets/icons/consultancyDiscovery/2.svg"
-              alt="icon"
-              className="w-14 h-14"
-            />
-            <p className="text-lg">AWS Architect Experts</p>
-          </div>
+    <div className="flex items-center space-x-4">
+      <img
+        src="/assets/icons/consultancyDiscovery/2.svg"
+        alt="icon"
+        className="w-14 h-14"
+      />
+      <p className="text-lg">AWS Architect Experts</p>
+    </div>
 
-          <div className="flex items-start space-x-4">
-            <img
-              src="/assets/icons/consultancyDiscovery/3.svg"
-              alt="icon"
-              className="w-14 h-14"
-            />
-            <p className="text-lg">AWS Cloud Practitioner</p>
-          </div>
+    <div className="flex items-center space-x-4">
+      <img
+        src="/assets/icons/consultancyDiscovery/3.svg"
+        alt="icon"
+        className="w-14 h-14"
+      />
+      <p className="text-lg">AWS Cloud Practitioner</p>
+    </div>
 
-          <div className="flex items-start space-x-4">
-            <img
-              src="/assets/icons/consultancyDiscovery/4.svg"
-              alt="icon"
-              className="w-14 h-14"
-            />
-            <p className="text-lg">AWS Certified Developers</p>
-          </div>
+    <div className="flex items-center space-x-4">
+      <img
+        src="/assets/icons/consultancyDiscovery/4.svg"
+        alt="icon"
+        className="w-14 h-14"
+      />
+      <p className="text-lg">AWS Certified Developers</p>
+    </div>
 
-          <div className="flex items-start space-x-4">
-            <img
-              src="/assets/icons/consultancyDiscovery/1.svg"
-              alt="icon"
-              className="w-14 h-14"
-            />
-            <p className="text-lg">Experts in AWS Data Migration</p>
-          </div>
-        </div>
-      </div>
+    <div className="flex items-center space-x-4">
+      <img
+        src="/assets/icons/consultancyDiscovery/1.svg"
+        alt="icon"
+        className="w-14 h-14"
+      />
+      <p className="text-lg">Experts in AWS Data Migration</p>
+    </div>
+  </div>
+</div>
+
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
@@ -186,101 +188,7 @@ const AWSMigrationEngineers = () => {
         </div>
       </div>
 
-      <div className="text-center mb-16 mt-20">
-        <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Ayanshtech Advantage
-        </h2>
-        <p className="sm:text-base md:text-lg lg:text-xl text-gray-600  mt-4 max-w-6xl mx-auto">
-          With Ecosmob, you can hire skilled and certified developers at an
-          hourly, part-time, or full-time contract hiring arrangement.
-        </p>
-      </div>
-
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-7xl mx-auto">
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/1.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-
-          <div>
-            <p className="text-lg">Agility with Focus on Quality</p>
-          </div>
-        </div>
-
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/2.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">
-              Scale your resources as per your requirements
-            </p>
-          </div>
-        </div>
-
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/3.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">
-              Hire as per your requirement with our Flexible Hiring module
-            </p>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/3.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">
-              Dedicated developers only charge for the project assigned to them
-            </p>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/3.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">Access to industry experts and developers</p>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/3.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">
-              Dedicated developers only charge for the project assigned to them
-            </p>
-          </div>
-        </div>
-        <div className="flex items-start space-x-4">
-          <img
-            src="/assets/icons/consultancyDiscovery/3.svg"
-            alt="icon"
-            className="w-14 h-14"
-          />
-          <div>
-            <p className="text-lg">
-              A rich ecosystem of experienced developers & tools
-            </p>
-          </div>
-        </div>
-      </div>
+       <AyanshtechAdvantage/>
 
       <div className="max-w-3xl mx-auto p-6 py-20 w-full">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8">
@@ -291,7 +199,7 @@ const AWSMigrationEngineers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5" : ""
+                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>
