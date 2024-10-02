@@ -1,27 +1,29 @@
 import React from "react";
 import GetInTouch from "../../components/GetInTouch.js";
 
-const UnifiedCommunicationSolution = () => {
+const SoftwareDefinedTelecom = () => {
   return (
     <div className=" flex flex-col items-center justify-center mt-20">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-6 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
           <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mt-20">
-            Boost Your Offerings with Customized Unified Communications
-            Solutions
+            Software-driven Telecom Solutions
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
-            Redefine How Your Business Communicates, Collaborate, and Grow.
+            Experience the new era of telecommunications. Scale your business
+            with ease and deploy enterprise-grade telecom network solutions to
+            make voice & video calls from a device of your choice. The term
+            “software-defined” means the ability to control some or all the
+            functions of a system, in this case, telecommunication system using
+            software solution. With software-defined telecom, organizations
+            benefit in more ways such as low costs, high-quality products and
+            services, and lesser risk.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
-            Are you a service provider stuck with a one-size-fits-all
-            communication solution that isn’t helping you grow? You’re in the
-            right place. Whether you are a cloud telephony provider, hosted PBX
-            provider, or UCaaS provider targeting micro, small, or large
-            enterprises, You need a platform tailored to you and your users.
-            Ecosmob’s custom Unified Communications solutions are built to scale
-            with your business, give you control over the source code, and offer
-            the flexibility to meet every communication requirement.
+            Software-defined telecom provides businesses with the tools required
+            to stay ahead of the communication curve in the age of cloud
+            computing. Migrate to communication apps and enhance them easily
+            using our custom-made software-defined telecom solution.
           </p>
         </div>
 
@@ -79,19 +81,11 @@ const UnifiedCommunicationSolution = () => {
       <div className=" bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5 ">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Features of Unified Communications Solutions
+            Unleash New Possibilities of Communication
           </h2>
-          <p className="sm:text-base md:text-lg lg:text-xl text-gray-600  mt-4 max-w-6xl mx-auto">
-            At Ecosmob, we don’t just focus on your business; we also consider
-            the needs of our customers’ customers. We know that today’s
-            businesses need more than a standard telephony system. They need a
-            robust solution to handle PBX features yet lightweight enough to
-            support efficient call center and conferencing
-            capabilities—especially for sales and customer care teams.
-          </p>
-          <p className="sm:text-base md:text-lg lg:text-xl text-gray-600  mt-4 max-w-6xl mx-auto">
-            And in this era of AI, you need a technology partner who can
-            integrate these cutting-edge technologies to automate routine tasks.
+          <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
+            Explore new tools of communication with the most simple and
+            easy-to-navigate interface.
           </p>
         </div>
 
@@ -103,7 +97,7 @@ const UnifiedCommunicationSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">PBX Features</p>
+              <p className="text-lg">Browser as a communication tool</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -112,7 +106,7 @@ const UnifiedCommunicationSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Lightweight Call Center</p>
+              <p className="text-lg">Apps as a communication tool</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -121,7 +115,9 @@ const UnifiedCommunicationSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Built-inWebRTC Client</p>
+              <p className="text-lg">
+                Audio and Video calls via apps and browsers
+              </p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -130,7 +126,7 @@ const UnifiedCommunicationSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">IPPhone Provisioning (TR-069 Protocol)</p>
+              <p className="text-lg">Conferencing solutions</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -139,33 +135,7 @@ const UnifiedCommunicationSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Multi-tenancy</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/1.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Selfcare WebPortal for Each User Entity</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/1.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Simple UI/UX</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/1.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">
-                Virtualization & Containerization for Easy Scaling
-              </p>
+              <p className="text-lg">Software telephony</p>
             </div>
           </div>
         </div>
@@ -173,15 +143,12 @@ const UnifiedCommunicationSolution = () => {
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Your Custom Unified Communications Solution
+          Software-Defined Telecom For Scalability
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Our base solution is just the starting point. At Ecosmob, we customize
-          and deliver additional features that align perfectly with your
-          specific needs—or those of your customers. Whether you need advanced
-          communication tools or specific functionalities, including but not
-          limited to the following notable features, we’re here to build it for
-          you.
+          With a shift to hybrid work culture, software-enabled telecom solution
+          is a great alternative that functions on your browser or mobile. Keep
+          your teams connected, located in different locations and at a scale.
         </p>
       </div>
 
@@ -203,9 +170,7 @@ const UnifiedCommunicationSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">
-                  Unified Communication Client for Mobile and Desktop
-                </p>
+                <p className="text-lg">Browser-based video & audio calls</p>
               </div>
             </div>
 
@@ -216,7 +181,7 @@ const UnifiedCommunicationSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Instant Messaging Service</p>
+                <p className="text-lg">Easily scale communications</p>
               </div>
             </div>
 
@@ -227,7 +192,7 @@ const UnifiedCommunicationSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Omni-Channel Support</p>
+                <p className="text-lg">Self-configuration for video calls</p>
               </div>
             </div>
 
@@ -238,29 +203,7 @@ const UnifiedCommunicationSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Predictive and Progressive Dialer</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">Reseller Module</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">
-                  Invoicing and Payment Collection (Billing)
-                </p>
+                <p className="text-lg">No tech-support required</p>
               </div>
             </div>
           </div>
@@ -272,4 +215,4 @@ const UnifiedCommunicationSolution = () => {
   );
 };
 
-export default UnifiedCommunicationSolution;
+export default SoftwareDefinedTelecom;

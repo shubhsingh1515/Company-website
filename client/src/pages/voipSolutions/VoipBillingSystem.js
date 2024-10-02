@@ -24,7 +24,7 @@ const pointsData = [
   },
 ];
 
-const ContactCenterSolution = () => {
+const VoipBilllingSystem = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
@@ -32,25 +32,24 @@ const ContactCenterSolution = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-6 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
           <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mt-20">
-            Dynamic IVR Solutions that Empower Customers
+            VoIP Billing System Development Services
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
-            Ayanshtech’s bespoke IVR solutions have allowed organizations to
-            gain a competitive edge. Its IVR software development is a component
-            of the IVR project where the team is employed in designing an
-            automated calling machine solution. Ecosmob equips to establish a
-            dynamic IVR builder to offer exemplary IVR solutions for the clients
-            per their requirements. With our best IVR software development
-            module, we provide a great calling and customer-friendly experience.
-            The indulgence of call routing in IVR solution improves the overall
-            customer experience. You can now create not one but multiple
-            multi-level IVR menus.
+            VoIP billing solutions are systems that allow VoIP service providers
+            and businesses to manage their billing and invoicing competently. A
+            robust VoIP billing system allows seamless Tenant & Customer
+            management, reporting, billing, and payment processes that take your
+            business to the next level. These solutions also enable service
+            providers to maintain prepaid and postpaid billing services.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
-            Several features, including DID number support, trunk management,
-            queue management, agent management, job scheduling, questionnaire
-            management, and customer lead management, add ease to creating a
-            different IVR experience.
+            Telecom billing management systems have gained massive traction over
+            the years, simplifying complex billing tasks like calling cards,
+            reporting, discounts, broadband telephone, PC to telephone, and
+            more. In the current scenario, the Softswitch providers do not have
+            a billing system, so they rely on third-party apps for billing. You
+            can always turn to a leading VoIP billing system development service
+            provider to curate apps that meet your needs end-to-end.
           </p>
         </div>
 
@@ -108,11 +107,12 @@ const ContactCenterSolution = () => {
       <div className="text-center bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5 ">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Features of Interactive Voice Response (IVR) Solutions
+            Core Features of VoIP Billing Solution
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-            Provide efficient call routing using our highly innovative and
-            scalable smart multi-response menu builder.
+            We are committed to delivering impeccable VoIP billing solutions
+            that comprehensively meet your billing, reporting, and other
+            analytics needs.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Drag and drop interface</p>
+              <p className="text-lg">Prepaid and postpaid billing</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -133,7 +133,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Builds multi-level IVR</p>
+              <p className="text-lg">Real-time balance sync</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -142,9 +142,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">
-                Future Scheduling / Snoozing and Answers / Voicemail recording
-              </p>
+              <p className="text-lg">Subscriptions and Packages</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -153,7 +151,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Different time zone support</p>
+              <p className="text-lg">Multicurrency support</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -162,7 +160,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Recorded message/script</p>
+              <p className="text-lg">Complete financial analysis</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -171,7 +169,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Connectivity to multiple servers</p>
+              <p className="text-lg">Reporting system</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -180,69 +178,9 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">DID numbers support</p>
+              <p className="text-lg">Tariff management</p>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Multi-Language IVR Support</p>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Prompt Management</p>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Reduced wait time</p>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Efficiently handle large call volumes</p>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Reduced overhead cost</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Speed up customer service</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-14 h-14"
-              />
-              <p className="text-lg">Enable hassle-free agent routing</p>
-            </div>
             <div className="flex items-center space-x-4">
               <img
                 src="/assets/icons/consultancyDiscovery/4.svg"
@@ -250,16 +188,37 @@ const ContactCenterSolution = () => {
                 className="w-14 h-14"
               />
               <p className="text-lg">
-                Track and report customer complaints/grievance
+                DTMF interworking (RFC2833, Inband and SIP INFO)
               </p>
             </div>
+
             <div className="flex items-center space-x-4">
               <img
                 src="/assets/icons/consultancyDiscovery/4.svg"
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Interactive customer feedback reports</p>
+              <p className="text-lg">DID billing support</p>
+            </div>
+
+            <div className="flex items-center space-x-4">
+              <img
+                src="/assets/icons/consultancyDiscovery/4.svg"
+                alt="icon"
+                className="w-14 h-14"
+              />
+              <p className="text-lg">
+                Configurable Service Plan at fixed/dynamic rates
+              </p>
+            </div>
+
+            <div className="flex items-center space-x-4">
+              <img
+                src="/assets/icons/consultancyDiscovery/4.svg"
+                alt="icon"
+                className="w-14 h-14"
+              />
+              <p className="text-lg">Postpaid/Prepaid Plan Management</p>
             </div>
           </div>
         </div>
@@ -267,11 +226,16 @@ const ContactCenterSolution = () => {
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Integral Elements of Dynamic IVR Solution
+          Significance Of VoIP Billing System
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Adapt to changing market and customer needs with our customizable
-          dynamic IVR solutions.
+          Telecom billing management systems can process thousands of calls per
+          second without latency. It allows telecom service providers to bill
+          their customers for using voice services. Based on the requisites, you
+          can reach out to a seasoned telecommunications billing systems
+          development partner who can help you track sales and payments
+          received. Here are a couple of reasons you must leverage the VoIP
+          billing system in your business:
         </p>
       </div>
 
@@ -293,7 +257,9 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Reduced wait time</p>
+                <p className="text-lg">
+                  The process of billing and invoicing is automated
+                </p>
               </div>
             </div>
 
@@ -304,7 +270,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Efficiently handle huge call volumes</p>
+                <p className="text-lg">System is scalable</p>
               </div>
             </div>
 
@@ -315,18 +281,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Reduce overhead cost</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">Speed up customer service</p>
+                <p className="text-lg">Quick access to customer details</p>
               </div>
             </div>
 
@@ -337,29 +292,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Enable hassle-free agent routing</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/3.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">
-                  Track and report customer complaints/grievance
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/3.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">Interactive customer feedback reports</p>
+                <p className="text-lg">Resources work on instrumental tasks</p>
               </div>
             </div>
           </div>
@@ -369,13 +302,15 @@ const ContactCenterSolution = () => {
       <div>
         <div className="text-center mb-16 mt-20 ">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Smart IVR solution
+            Curate Excellent VoIP Billing Solutions
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-6xl mx-auto">
-            Ecosmob offers best-of-breed IVR solutions with excellent design and
-            seamless experience. Here we design several types of IVR solutions,
-            viz. IVR for self-service, Hosted IVR, Agent-assisted IVR, and more.
-            Several touch points make IVR solutions by Ecosmob unique.
+            The VoIP billing system adequately bills your customers for VoIP
+            usage. Our bespoke VoIP billing software prevents fraud and
+            maintains leakage-free calls. Since the primary aim of telecom
+            billing solutions is to simplify the complex billing procedure and
+            make invoicing seamless, it helps VoIP solution providers to reveal,
+            charge, and install billing processes.
           </p>
         </div>
 
@@ -388,8 +323,8 @@ const ContactCenterSolution = () => {
             />
             <div>
               <p className="text-lg">
-                Automate customer-care thereby minimizing the manual
-                intervention
+                Easy billing process by maintaining both prepaid and postpaid
+                customers
               </p>
             </div>
           </div>
@@ -402,7 +337,7 @@ const ContactCenterSolution = () => {
             />
             <div>
               <p className="text-lg">
-                Garner feedback for the call to revamp the IVR menu
+                Take your work management to the next level by collaborating
               </p>
             </div>
           </div>
@@ -415,8 +350,7 @@ const ContactCenterSolution = () => {
             />
             <div>
               <p className="text-lg">
-                Overtaking in customer representative’s absence strengthens the
-                belief of customers in the organization
+                Billing automation allows focusing on other tasks
               </p>
             </div>
           </div>
@@ -429,8 +363,7 @@ const ContactCenterSolution = () => {
             />
             <div>
               <p className="text-lg">
-                Customized experience that emphasizes the customer is a
-                delighted one
+                Track employee usage and monitor where they make most calls
               </p>
             </div>
           </div>
@@ -441,18 +374,8 @@ const ContactCenterSolution = () => {
               className="w-18 h-18"
             />
             <div>
-              <p className="text-lg">Topology and carrier hiding</p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon4.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
               <p className="text-lg">
-                Improve first call resolution by best-fit IVR menu introduction
+                Save money on hefty and tiresome billing process
               </p>
             </div>
           </div>
@@ -462,10 +385,15 @@ const ContactCenterSolution = () => {
       <div className="bg-green-50 p-8 mb-20 rounded-3xl">
         {/* Title Section */}
         <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
-        Tailored IVR Solution
+          Tailored VoIP Billing Solution
         </h2>
         <p className="text-center text-lg text-gray-700 mb-8">
-        Our dynamic IVR Builder ensures that multi-level support is given to the customer while connecting with the contact center. You can integrate the IVR with any CRM for full functionality. There are several pain points that are combated using IVR solution.
+          Contact Center is a vast industry! We offer robust and multifunctional
+          contact center solutions that ensure a single point of operation for
+          multiple requirements. Several pain points can be combated easily
+          using our customized omnichannel contact center solution. Now, you can
+          manage all your interactions (inbound or outbound) on different
+          channels efficiently.
         </p>
 
         {/* Navigation Bar */}
@@ -493,14 +421,19 @@ const ContactCenterSolution = () => {
         </div>
       </div>
 
-      <div className="text-center mb-16 mt-5 ">
+      <div className="text-center max-w-6xl mb-16 mt-5 ">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-        Why choose Ayanshtech as your IVR solution partner
+          Why choose Ecosmob as your VoIP Billing Solution development partner
         </h2>
         <p className="sm:text-base md:text-lg lg:text-lg text-gray-600 mt-4 max-w-6xl mx-auto">
-        IVR is the first point of contact while connecting with a Contact Center. The IVR solution deployed at the Contact Center greets you first and provides multiple options. With the robust features of custom-made IVR solutions developed by Ecosmob, you can handle a massive volume of calls made per second. The interactive voice response solution lets you skim through the options quickly, especially during peak calling hours when you might have to wait in a queue. The smart on-demand IVR solutions by Ecosmob have instant set-up, cost-effective pricing, real-time reporting, CRM integration, a user-friendly portal, and more.
+          As the VoIP niche has shot up, there is a spike in the requirement for
+          telecommunications billing systems. Our bespoke VoIP billing software
+          development model enables you to accumulate CDRs from different
+          sources and send final invoices to end customers. We are seasoned in
+          developing telecom billing management systems for MVNO, IP PBX, Class
+          4, and Class 5 Softswitches. Our team understands, defines, and
+          delivers what you need and even par excellent solutions.
         </p>
-  
       </div>
 
       <GetInTouch />
@@ -508,4 +441,4 @@ const ContactCenterSolution = () => {
   );
 };
 
-export default ContactCenterSolution;
+export default VoipBilllingSystem;

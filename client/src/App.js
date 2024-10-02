@@ -31,6 +31,26 @@ import ReactNativeDevelopers from "./pages/HireDevelopers/ReactNativeDevelopers.
 import SupportEngineers from "./pages/HireDevelopers/SupportEngineers.js";
 import VoIPDevelopers from "./pages/HireDevelopers/VoIPDevelopers.js";
 import WebRtcDeveloper from "./pages/HireDevelopers/WebRtcDeveloper.js";
+import AudioVideoConfSolution from "./pages/voipSolutions/AudioVideoConfSolution.js";
+import BusinessPhoneSystem from "./pages/voipSolutions/BusinessPhoneSystem.js";
+import ContactCenterSolution from "./pages/voipSolutions/ContactCenterSolution.js";
+import DynamicIvrSolution from "./pages/voipSolutions/DynamicIvrSolution.js";
+import FoipTelepresence from "./pages/voipSolutions/FoipTelepresence.js";
+import EnterpriseVoipSolution from "./pages/voipSolutions/EnterpriseVoipSolution.js";
+import HostedPbxSolutions from "./pages/voipSolutions/HostedPbxSolutions.js";
+import SmsBroadcastingSystem from "./pages/voipSolutions/SmsBroadcastingSystem.js";
+import UnifiedCommunicationSolution from "./pages/voipSolutions/UnifiedCommunicationSolution.js";
+import CommunicationApi from "./pages/voipSolutions/CommunicationApi.js";
+import SoftwareDefinedTelecom from "./pages/voipSolutions/SoftwareDefinedTelecom.js";
+import VoipBillingSystem from "./pages/voipSolutions/VoipBillingSystem.js";
+import SmallBusinessVoipSolution from "./pages/voipSolutions/SmallBusinessVoipSolution.js";
+import EnterpriseContactCenter from "./pages/voipSolutions/EnterpriseContactCenter.js";
+//Offerings
+import FreeSwitch from "./pages/offerings/voip/FreeSwitch.js";
+import Asterisk from "./pages/offerings/voip/Asterisk.js";
+import Kamailio from "./pages/offerings/voip/Kamailio.js";
+import OpenSips from "./pages/offerings/voip/OpenSips.js";
+import WebRTc from "./pages/offerings/voip/WebRTc.js";
 
 
 
@@ -72,6 +92,27 @@ function App() {
         <Route path="/hire-webrtc-developers" element={<WebRtcDeveloper/>} />
 
         //VoIP Solutions
+        <Route path="/audio-video-conference" element={<AudioVideoConfSolution/>} />
+        <Route path="/business-phone-system" element={<BusinessPhoneSystem/>} />
+        <Route path="/contact-center-solution" element={<ContactCenterSolution/>} />
+        <Route path="/dynamic-ivr-solution" element={<DynamicIvrSolution/>} />
+        <Route path="/enterprise-voip-solution" element={<EnterpriseVoipSolution/>} />
+        <Route path="/foip-telepresence" element={<FoipTelepresence/>} />
+        <Route path="/hosted-pbx-solution" element={<HostedPbxSolutions/>} />
+        <Route path="/sms-broadcasting-system" element={<SmsBroadcastingSystem/>} />
+        <Route path="/unified-communication-solution" element={<UnifiedCommunicationSolution/>} />
+        <Route path="/communication-api" element={<CommunicationApi/>} />
+        <Route path="/software defined-telecom" element={<SoftwareDefinedTelecom/>} />
+        <Route path="/voip-billing-system" element={<VoipBillingSystem/>} />
+        <Route path="/small-business-voip-solution" element={<SmallBusinessVoipSolution/>} />
+        <Route path="/enterprise-contact-center" element={<EnterpriseContactCenter/>} />
+
+        //Offerings -- VoIP
+        <Route path="/asterisk" element={<Asterisk/>} />
+        <Route path="/freeswitch" element={<FreeSwitch/>} />
+        <Route path="/freeswitch" element={<Kamailio/>} />
+        <Route path="/freeswitch" element={<OpenSips/>} />
+        <Route path="/freeswitch" element={<WebRTc/>} />
 
         
         

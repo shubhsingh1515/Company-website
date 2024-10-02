@@ -24,7 +24,7 @@ const pointsData = [
   },
 ];
 
-const ContactCenterSolution = () => {
+const EnterpriseContactCenter = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
@@ -32,25 +32,21 @@ const ContactCenterSolution = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-6 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
           <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mt-20">
-            Dynamic IVR Solutions that Empower Customers
+            Enterprise Contact Center Solutions
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
-            Ayanshtech’s bespoke IVR solutions have allowed organizations to
-            gain a competitive edge. Its IVR software development is a component
-            of the IVR project where the team is employed in designing an
-            automated calling machine solution. Ecosmob equips to establish a
-            dynamic IVR builder to offer exemplary IVR solutions for the clients
-            per their requirements. With our best IVR software development
-            module, we provide a great calling and customer-friendly experience.
-            The indulgence of call routing in IVR solution improves the overall
-            customer experience. You can now create not one but multiple
-            multi-level IVR menus.
+            Enterprise contact center software solutions are the best to enhance
+            your business and customer experience effectively and efficiently.
+            It manages customer interactions across multiple channels, including
+            phone, email, chat, social media, and more. It is designed to help
+            businesses of all sizes to provide exceptional customer service,
+            enhance customer satisfaction, and increase customer loyalty.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
-            Several features, including DID number support, trunk management,
-            queue management, agent management, job scheduling, questionnaire
-            management, and customer lead management, add ease to creating a
-            different IVR experience.
+            It also help your customer service team to work smartly with smooth
+            business operations handling customers’ queries. Ecosmob is a team
+            of experienced VoIP Software Engineers recognized for custom
+            development in a complex needs.
           </p>
         </div>
 
@@ -105,14 +101,58 @@ const ContactCenterSolution = () => {
         </div>
       </div>
 
+      <div className="bg-white mb-5 px-10 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16">
+          <div className="flex justify-center lg:w-1/4 mb-12 lg:mb-0">
+            <img
+              src="/assets/images\webMobile.png"
+              alt="VoIP Business Solutions"
+              className="w-full h-auto sm:w-3/4 md:w-2/3 lg:w-full object-contain"
+            />
+          </div>
+
+          <div className="lg:w-3/4 text-center lg:text-left">
+            <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+              What Is Enterprise Contact Center Software Solution
+            </h2>
+            <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3">
+              An enterprise contact center software solution is valuable tool
+              for businesses looking to improve their customer service and
+              engagement strategies. This tool offers omnichannel capabilities
+              and built-in compliance features. It also allows organizations to
+              deliver a seamless and personalized experience to their customers,
+              irrespective of their location, device, etc.
+              <br />
+              <br />
+              Overall, Omnichannel contact center software solutions can support
+              large-scale, global teams in the least possible time and effort.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="text-center bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5 ">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Features of Interactive Voice Response (IVR) Solutions
+            Features of Enterprise Contact Center Solutions
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-            Provide efficient call routing using our highly innovative and
-            scalable smart multi-response menu builder.
+            Enterprise contact center solutions typically include features such
+            as automatic call distribution, interactive voice response,
+            omnichannel routing, workforce management, real-time monitoring and
+            reporting, and CRM integration. These features help businesses to
+            optimize their operations, streamline their workflows, and deliver a
+            more personalized and efficient customer experience.
+          </p>
+          <p>
+            {" "}
+            In addition to traditional contact center features, many enterprise
+            contact center solutions also offer advanced capabilities such as
+            artificial intelligence, machine learning, natural language
+            processing, and sentiment analysis. These technologies enable
+            organizations to automate routine tasks, identify patterns in
+            customer behavior, and gain deeper insights into customer needs and
+            preferences.
           </p>
         </div>
 
@@ -124,7 +164,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Drag and drop interface</p>
+              <p className="text-lg">DID Management</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -133,7 +173,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Builds multi-level IVR</p>
+              <p className="text-lg">SIP Trunk/Carrier Management</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -142,9 +182,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">
-                Future Scheduling / Snoozing and Answers / Voicemail recording
-              </p>
+              <p className="text-lg">Agent/Supervisor Account Management</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -153,7 +191,9 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Different time zone support</p>
+              <p className="text-lg">
+                Inbound, Outbound and Blended Campaign Management
+              </p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -162,7 +202,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Recorded message/script</p>
+              <p className="text-lg">Multi-Level IVRS</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -171,7 +211,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Connectivity to multiple servers</p>
+              <p className="text-lg">ACD Management</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -180,7 +220,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">DID numbers support</p>
+              <p className="text-lg">Skill-based routing</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -189,7 +229,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Multi-Language IVR Support</p>
+              <p className="text-lg">Analytics and Reports</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -198,7 +238,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Prompt Management</p>
+              <p className="text-lg">Real-time campaign monitor</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -207,7 +247,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Reduced wait time</p>
+              <p className="text-lg">Realtime Agent Monitoring</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -216,7 +256,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Efficiently handle large call volumes</p>
+              <p className="text-lg">Whisper/Coaching /Barge-in</p>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -225,7 +265,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Reduced overhead cost</p>
+              <p className="text-lg">Built-In WebRTC Based phone</p>
             </div>
             <div className="flex items-center space-x-4">
               <img
@@ -233,7 +273,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Speed up customer service</p>
+              <p className="text-lg">Inbound Screen Pop</p>
             </div>
             <div className="flex items-center space-x-4">
               <img
@@ -241,7 +281,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Enable hassle-free agent routing</p>
+              <p className="text-lg">Auto data retrieval from CRM</p>
             </div>
             <div className="flex items-center space-x-4">
               <img
@@ -249,9 +289,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">
-                Track and report customer complaints/grievance
-              </p>
+              <p className="text-lg">Oncall campaign wise script</p>
             </div>
             <div className="flex items-center space-x-4">
               <img
@@ -259,7 +297,23 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">Interactive customer feedback reports</p>
+              <p className="text-lg">Sticky Agent</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <img
+                src="/assets/icons/consultancyDiscovery/4.svg"
+                alt="icon"
+                className="w-14 h-14"
+              />
+              <p className="text-lg">Callback Feature</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <img
+                src="/assets/icons/consultancyDiscovery/4.svg"
+                alt="icon"
+                className="w-14 h-14"
+              />
+              <p className="text-lg">Timeclock</p>
             </div>
           </div>
         </div>
@@ -267,12 +321,8 @@ const ContactCenterSolution = () => {
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Integral Elements of Dynamic IVR Solution
+          Benefits of Enterprise Contact Center Solutions
         </h2>
-        <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Adapt to changing market and customer needs with our customizable
-          dynamic IVR solutions.
-        </p>
       </div>
 
       <div className="bg-white p-4">
@@ -293,7 +343,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Reduced wait time</p>
+                <p className="text-lg">Enhanced customer service management.</p>
               </div>
             </div>
 
@@ -304,7 +354,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Efficiently handle huge call volumes</p>
+                <p className="text-lg">Improved productivity</p>
               </div>
             </div>
 
@@ -315,7 +365,7 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Reduce overhead cost</p>
+                <p className="text-lg">Superior customer experience</p>
               </div>
             </div>
 
@@ -326,29 +376,19 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Speed up customer service</p>
+                <p className="text-lg">Better security of data</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4">
               <img
                 src="/assets/icons/consultancyDiscovery/4.svg"
-                alt="icon"
-                className="w-20 h-20"
-              />
-              <div>
-                <p className="text-lg">Enable hassle-free agent routing</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <img
-                src="/assets/icons/consultancyDiscovery/3.svg"
                 alt="icon"
                 className="w-20 h-20"
               />
               <div>
                 <p className="text-lg">
-                  Track and report customer complaints/grievance
+                  Real-time monitoring and detailed reports
                 </p>
               </div>
             </div>
@@ -359,101 +399,8 @@ const ContactCenterSolution = () => {
                 className="w-20 h-20"
               />
               <div>
-                <p className="text-lg">Interactive customer feedback reports</p>
+                <p className="text-lg">Dynamic scalability</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div className="text-center mb-16 mt-20 ">
-          <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Smart IVR solution
-          </h2>
-          <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-6xl mx-auto">
-            Ecosmob offers best-of-breed IVR solutions with excellent design and
-            seamless experience. Here we design several types of IVR solutions,
-            viz. IVR for self-service, Hosted IVR, Agent-assisted IVR, and more.
-            Several touch points make IVR solutions by Ecosmob unique.
-          </p>
-        </div>
-
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-7xl mx-auto mb-20">
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon1.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">
-                Automate customer-care thereby minimizing the manual
-                intervention
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon2.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">
-                Garner feedback for the call to revamp the IVR menu
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon3.png"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">
-                Overtaking in customer representative’s absence strengthens the
-                belief of customers in the organization
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon4.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">
-                Customized experience that emphasizes the customer is a
-                delighted one
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon4.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">Topology and carrier hiding</p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <img
-              src="\assets\icons\AyanshtechAdvantage\icon4.svg"
-              alt="icon"
-              className="w-18 h-18"
-            />
-            <div>
-              <p className="text-lg">
-                Improve first call resolution by best-fit IVR menu introduction
-              </p>
             </div>
           </div>
         </div>
@@ -462,10 +409,14 @@ const ContactCenterSolution = () => {
       <div className="bg-green-50 p-8 mb-20 rounded-3xl">
         {/* Title Section */}
         <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
-        Tailored IVR Solution
+          Tailored Enterprise Contact Center Solution
         </h2>
         <p className="text-center text-lg text-gray-700 mb-8">
-        Our dynamic IVR Builder ensures that multi-level support is given to the customer while connecting with the contact center. You can integrate the IVR with any CRM for full functionality. There are several pain points that are combated using IVR solution.
+          Build an exceptional customer experience by leveraging customized
+          enterprise contact center solutions. Our professionals can develop a
+          customized solution that includes all the essential features and
+          functionalities that you need for the smooth functioning and
+          management of your contact center operations.
         </p>
 
         {/* Navigation Bar */}
@@ -494,13 +445,17 @@ const ContactCenterSolution = () => {
       </div>
 
       <div className="text-center mb-16 mt-5 ">
-        <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-        Why choose Ayanshtech as your IVR solution partner
+        <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 ">
+          Why Choose Ayanshtech For Enterprise Contact Center Solutions
         </h2>
         <p className="sm:text-base md:text-lg lg:text-lg text-gray-600 mt-4 max-w-6xl mx-auto">
-        IVR is the first point of contact while connecting with a Contact Center. The IVR solution deployed at the Contact Center greets you first and provides multiple options. With the robust features of custom-made IVR solutions developed by Ecosmob, you can handle a massive volume of calls made per second. The interactive voice response solution lets you skim through the options quickly, especially during peak calling hours when you might have to wait in a queue. The smart on-demand IVR solutions by Ecosmob have instant set-up, cost-effective pricing, real-time reporting, CRM integration, a user-friendly portal, and more.
+          Ecosmob is one of the leading VoIP Software Development Company since
+          more than 15 years. We have a great track record delivering VoIP
+          solutions of different technologies for small to enterprise across the
+          Globe. We understand clients’ business requirement and power of
+          business communication and the role of VoIP solutions across
+          industries.
         </p>
-  
       </div>
 
       <GetInTouch />
@@ -508,4 +463,4 @@ const ContactCenterSolution = () => {
   );
 };
 
-export default ContactCenterSolution;
+export default EnterpriseContactCenter;

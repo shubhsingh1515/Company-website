@@ -24,22 +24,19 @@ const pointsData = [
   },
 ];
 
-const EnterpriseVoipSolution = () => {
+const SmallBusinessVoipSolution = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <div className=" flex flex-col items-center justify-center mt-20">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-6 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
-          <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mt-20">
-            Robust Enterprise VoIP Solutions
+          <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mt-20">
+            
+VoIP Solutions For Small Business
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
-            Ayanshtech offers a complete suite of enterprise VoIP solutions to
-            deliver robust security, compliance, and privacy to today’s
-            businesses. Using cutting-edge VoIP technology, we provide
-            customized enterprise VoIP phone systems to ensure better
-            connectivity and supreme call quality.
+          If you have a small business and you are looking for flexible, scalable, and cost-effective VoIP solutions. We provide all types of small business VoIP solutions to help businesses stay competitive, enhance the customer experience and drive growth. 
           </p>
         </div>
 
@@ -106,38 +103,27 @@ const EnterpriseVoipSolution = () => {
 
           <div className="lg:w-3/4 text-center lg:text-left">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              What is enterprise VoIP?
+            What is Small Business VoIP?
             </h2>
             <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3">
-              Enterprise VoIP, also known as “Voice over Internet Protocol” or
-              “Voice over IP” is a telephony technology that allows users to
-              stay connected through phone calls and conference calls. This has
-              made enterprise business VoIP systems more popular as compared to
-              traditional on-premises PBX systems. Not only does business VoIP
-              come with expected functionalities like built-in call routing, but
-              it is also a more flexible and cost-efficient alternative to old
-              legacy systems.
+            Just like large enterprises, small businesses also require a unified platform to better serve their customers. VoIP for small businesses allows companies to make voice calls, and send SMS, or text messages via the Internet. 
               <br />
               <br />
-              Most medium to large businesses employ enterprise telephony
-              solutions to reduce costs and increase their bottom line. For
-              distributed teams, enterprise VoIP solutions act as a reliable,
-              scalable, and cost-efficient way to stay connected via
-              internet-enabled calls, messages, and video conferencing.
+              With small business VoIP services, businesses can improve call flows and get real-time insights into their overall performance. Without incurring high costs, small businesses can enjoy various advanced VoIP call features like Interactive Voice Response (IVR), call forwarding, auto attendant, analytics and reporting, integration with other business tools, and more.
             </p>
           </div>
         </div>
       </div>
 
+
       <div className=" bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Enterprise VoIP System Features
+          Small Business VoIP Features
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-            Ayanshtech helps businesses build telephony solutions for web
-            conferencing, UCaaS, and many more. Some of the key offerings with
-            enterprise telephony solutions include-
+          Ayanshtech provides a unified platform for small businesses to help them manage communications and customer interactions easily and efficiently.
+          Some of the key features of VoIP services for small businesses include-
           </p>
         </div>
 
@@ -235,111 +221,8 @@ const EnterpriseVoipSolution = () => {
         </div>
       </div>
 
-      <div className="text-center mb-5 mt-10">
-        <h2 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800">
-          Technologies We use
-        </h2>
-      </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3  px-15">
-        <div className="position:relative; z-8 ">
-          <img
-            src="/assets/images/voipComponent/VoipTech/1.png"
-            alt="Voip tech"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-          />
-        </div>
-        <div className="position:relative; z-8">
-          <img
-            src="/assets/images/voipComponent/VoipTech/2.png"
-            alt="Voip tech"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-          />
-        </div>
-        <div className="position:relative; z-8">
-          <img
-            src="/assets/images/voipComponent/VoipTech/3.png"
-            alt="Voip tech"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-          />
-        </div>
-        <div className="position:relative; z-8">
-          <img
-            src="/assets/images/voipComponent/VoipTech/4.png"
-            alt="Voip tech"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-          />
-        </div>
-        <div className="position:relative; z-8">
-          <img
-            src="/assets/images/voipComponent/VoipTech/5.png"
-            alt="Voip tech"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-          />
-        </div>
-      </div>
 
-      <div className=" mb-10 mt-20 px-10 ">
-        <h2 className=" text-center sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 py-5">
-          Benefits of Adopting VoIP Enterprise Telephony Solutions
-        </h2>
-        <p className="text-gray-700 text-base lg:text-lg mb-5">
-          VoIP technology is less expensive, easy to deploy, and significantly
-          much easier to maintain as compared to traditional landline systems.
-          If you are considering making a switch to an Enterprise VoIP phone
-          system, you can reap several benefits-
-        </p>
-        <p className="text-gray-700 text-base lg:text-lg">
-          Unlike traditional phone systems, business VoIP provides a substantial
-          level of flexibility in terms of pricing structure. It helps in
-          improving customer service in several ways like reduced wait times,
-          voicemails, live call monitoring, call data analysis, etc. Enterprise
-          VoIP is highly beneficial for financial institutions like banking and
-          finance companies. It allows them to manage several office locations
-          from a single location using virtual extensions. Businesses in other
-          sectors can also benefit from using enterprise telephony solutions.
-          They can use features like call recording, call monitoring, and others
-          to improve agents’ performance and customer experience.
-        </p>
-      </div>
-
-      <div className="bg-green-50 p-8 mb-10 rounded-3xl">
-        {/* Title Section */}
-        <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
-          Tailored Enterprise Contact Center Solution
-        </h2>
-        <p className="text-center text-lg text-gray-700 mb-8">
-          Build an exceptional customer experience by leveraging customized
-          enterprise contact center solutions. Our professionals can develop a
-          customized solution that includes all the essential features and
-          functionalities that you need for the smooth functioning and
-          management of your contact center operations.
-        </p>
-
-        {/* Navigation Bar */}
-        <div className="flex justify-center space-x-8 mb-4">
-          {pointsData.map((point, index) => (
-            <button
-              key={index}
-              className={`text-lg font-medium ${
-                activeIndex === index
-                  ? "text-blue-600 underline"
-                  : "text-gray-500"
-              }`}
-              onClick={() => setActiveIndex(index)}
-            >
-              {point.title}
-            </button>
-          ))}
-        </div>
-
-        {/* Content Section */}
-        <div className="text-center max-w-5xl mx-auto p-4  border-gray-300 ">
-          <p className="text-lg text-gray-600 mt-4">
-            {pointsData[activeIndex].content}
-          </p>
-        </div>
-      </div>
-
+      
       <div>
         <div className="text-center mb-12 mt-5">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
@@ -432,9 +315,10 @@ const EnterpriseVoipSolution = () => {
           </div>
         </div>
       </div>
+
       <GetInTouch />
     </div>
   );
 };
 
-export default EnterpriseVoipSolution;
+export default SmallBusinessVoipSolution;
