@@ -34,7 +34,7 @@ const NodeDeveloper = () => {
               <br />
               <br />
               If you are looking to hire NodeJs developers, you have reached the
-              right place. At Ecosmob, you can easily hire Node developers who
+              right place. At Ayanshtech, you can easily hire Node developers who
               rank high in the industry and start the digital journey of your
               business.
             </p>
@@ -128,7 +128,7 @@ const NodeDeveloper = () => {
           Seasoned NodeJs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        NodeJS developers for hire from Ecosmob get your
+        NodeJS developers for hire from Ayanshtech get your
         business applications running in no time.
         </p>
       </div>

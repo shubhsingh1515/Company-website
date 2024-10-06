@@ -29,10 +29,10 @@ const VoIPDevelopers = () => {
               phone calls over the internet. VoIP is an excellent choice for
               businesses trying to save money on communications because it is
               often significantly less expensive than traditional phone rates.
-              With Ecosmob, create a multi-feature, unified communications hub
+              With Ayanshtech, create a multi-feature, unified communications hub
               with a VoIP solution for your business. Enable your employees to
               communicate and collaborate on multiple channels. Hire VoIP
-              experts from Ecosmob to derive maximum value out of your business.
+              experts from Ayanshtech to derive maximum value out of your business.
             </p>
             <button
               onClick={scrollToContact}
@@ -150,7 +150,7 @@ const VoIPDevelopers = () => {
 
               <div>
                 <p className="text-lg">
-                  Hire VoIP experts from Ecosmob as a team of professional and
+                  Hire VoIP experts from Ayanshtech as a team of professional and
                   experienced developers
                 </p>
               </div>

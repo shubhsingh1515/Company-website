@@ -53,7 +53,7 @@ const OpenSIPsDevelopers = () => {
         Expertise Of Our OpenSIPs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        OpenSIPs is a large open-source community. Our seasoned developers are all set with their knowledge to aid your business requirements. You can leverage OpenSIPS solution Development from Ecosmob to redefine your ROI.
+        OpenSIPs is a large open-source community. Our seasoned developers are all set with their knowledge to aid your business requirements. You can leverage OpenSIPS solution Development from Ayanshtech to redefine your ROI.
         </p>
       </div>
 
@@ -127,7 +127,7 @@ const OpenSIPsDevelopers = () => {
           Seasoned OpenSIPs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        Hire expert OpenSIPs developers from Ecosmob to gain
+        Hire expert OpenSIPs developers from Ayanshtech to gain
         freedom from technical aspects of development.
         </p>
       </div>

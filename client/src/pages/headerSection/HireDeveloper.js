@@ -39,12 +39,12 @@ const HireDeveloper = () => {
     },
     {
       label: "Email Enquiries",
-      email: "sales@ecosmob.com",
+      email: "sales@Ayanshtech.com",
       icon: "",
     },
     {
       label: "Career Enquiries",
-      email: "careers@ecosmob.com",
+      email: "careers@Ayanshtech.com",
       icon: "",
     },
   ];

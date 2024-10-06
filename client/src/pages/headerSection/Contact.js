@@ -45,7 +45,7 @@ const Contact = () => {
               placeholder="Company Name"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
-             <input
+            <input
               type="text"
               placeholder="Service Required"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -71,8 +71,11 @@ const Contact = () => {
         </h3>
 
         <div className="relative flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:space-x-16">
-          <img src="/assets/images/contactBanner.png" alt="Process" className="rounded-lg" />
-
+          <img
+            src="/assets/images/contactBanner.png"
+            alt="Process"
+            className="rounded-lg"
+          />
         </div>
 
         <div className="bg-blue-800 text-white py-8 px-4 rounded-2xl mt-10">
@@ -81,9 +84,9 @@ const Contact = () => {
               Ayanshtech's Commitment
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
-              At Ayanshtech, we are committed to exceeding your expectations. Our
-              team of experts will work closely with you to ensure a successful
-              project outcome.
+              At Ayanshtech, we are committed to exceeding your expectations.
+              Our team of experts will work closely with you to ensure a
+              successful project outcome.
             </p>
           </div>
         </div>

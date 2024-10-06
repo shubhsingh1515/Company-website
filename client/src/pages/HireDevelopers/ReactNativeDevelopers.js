@@ -22,21 +22,19 @@ const ReactNativeDevelopers = () => {
         <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
           <div className="lg:w-3/4 text-center lg:text-left ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              Hire NodeJs Developers
+              Hire React Native Developers
             </h2>
             <p className="sm:text-base md:text-lg lg:text-lg  leading-relaxed mb-3">
-              One of the best Javascript frameworks is Node. For the back-end
-              purpose of any type of application that requires scalability and
-              high performance, hire NodeJS developers. With NodeJs Framework,
-              you can handle everything efficiently and effectively, including
-              API management or migration. Hire NodeJS experts for providing
-              solutions for all type of business.
+              Are you looking to hire React native developers for your upcoming
+              mobile app development project? If so, hire react native experts
+              from Ayanshtech to turn your vision into a reality and conquer the
+              world of apps with cost-effective and fantastic benefits.
               <br />
               <br />
-              If you are looking to hire NodeJs developers, you have reached the
-              right place. At Ecosmob, you can easily hire Node developers who
-              rank high in the industry and start the digital journey of your
-              business.
+              Hire React developers from Ayanshtech’s team of top React Native
+              developers that can help startups, SMEs, and corporations create
+              cutting-edge cross-platform mobile apps. You can hire react
+              developers on an hourly, monthly, or full-time basis.
             </p>
             <button
               onClick={scrollToContact}
@@ -61,8 +59,10 @@ const ReactNativeDevelopers = () => {
           Expertise Of Our React Native Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        Our highly skilled React Native app developers create mobility solutions tailored to your project’s
-needs. Hire dedicated React Native developers from us that help you tackle your development challenges.
+          Our highly skilled React Native app developers create mobility
+          solutions tailored to your project’s needs. Hire dedicated React
+          Native developers from us that help you tackle your development
+          challenges.
         </p>
       </div>
 
@@ -92,9 +92,7 @@ needs. Hire dedicated React Native developers from us that help you tackle your 
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">API Development
-
-</p>
+            <p className="text-lg">API Development</p>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -103,9 +101,9 @@ needs. Hire dedicated React Native developers from us that help you tackle your 
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">In-depth knowledge of CSS, HTML, and JavaScript
-
-</p>
+            <p className="text-lg">
+              In-depth knowledge of CSS, HTML, and JavaScript
+            </p>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -114,9 +112,7 @@ needs. Hire dedicated React Native developers from us that help you tackle your 
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">React Native consulting
-
-</p>
+            <p className="text-lg">React Native consulting</p>
           </div>
           <div className="flex items-center space-x-4">
             <img
@@ -124,20 +120,18 @@ needs. Hire dedicated React Native developers from us that help you tackle your 
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">Testing and QA
-
-</p>
+            <p className="text-lg">Testing and QA</p>
           </div>
         </div>
       </div>
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-        Hire Seasoned React Native Developers
+          Hire Seasoned React Native Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        React native developers offer a popular cross-platform mobile framework
-that delivers a seamless experience.
+          React native developers offer a popular cross-platform mobile
+          framework that delivers a seamless experience.
         </p>
       </div>
 
@@ -161,7 +155,8 @@ that delivers a seamless experience.
 
               <div>
                 <p className="text-lg">
-                Our developers build React Native frameworks that provide an impeccable user experience.
+                  Our developers build React Native frameworks that provide an
+                  impeccable user experience.
                 </p>
               </div>
             </div>
@@ -174,8 +169,8 @@ that delivers a seamless experience.
               />
               <div>
                 <p className="text-lg">
-            
-Apps are easily adaptable and scalable to meet the changing needs of enterprises.
+                  Apps are easily adaptable and scalable to meet the changing
+                  needs of enterprises.
                 </p>
               </div>
             </div>
@@ -188,7 +183,8 @@ Apps are easily adaptable and scalable to meet the changing needs of enterprises
               />
               <div>
                 <p className="text-lg">
-                Develop cost-effective solutions with a single codebase for Android and iOS apps.
+                  Develop cost-effective solutions with a single codebase for
+                  Android and iOS apps.
                 </p>
               </div>
             </div>
@@ -200,7 +196,8 @@ Apps are easily adaptable and scalable to meet the changing needs of enterprises
               />
               <div>
                 <p className="text-lg">
-                Changes to the codebase of React native apps are automatically mirrored in both Android and iOS versions.
+                  Changes to the codebase of React native apps are automatically
+                  mirrored in both Android and iOS versions.
                 </p>
               </div>
             </div>
@@ -212,7 +209,8 @@ Apps are easily adaptable and scalable to meet the changing needs of enterprises
               />
               <div>
                 <p className="text-lg">
-                Sharing code between the Android and iOS platforms, React native developers speed up the app development process.
+                  Sharing code between the Android and iOS platforms, React
+                  native developers speed up the app development process.
                 </p>
               </div>
             </div>

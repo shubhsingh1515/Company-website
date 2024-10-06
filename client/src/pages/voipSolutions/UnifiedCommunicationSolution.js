@@ -1,5 +1,6 @@
 import React from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const UnifiedCommunicationSolution = () => {
   return (
@@ -19,61 +20,13 @@ const UnifiedCommunicationSolution = () => {
             right place. Whether you are a cloud telephony provider, hosted PBX
             provider, or UCaaS provider targeting micro, small, or large
             enterprises, You need a platform tailored to you and your users.
-            Ecosmob’s custom Unified Communications solutions are built to scale
+            Ayanshtech’s custom Unified Communications solutions are built to scale
             with your business, give you control over the source code, and offer
             the flexibility to meet every communication requirement.
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className=" bg-gray-50 rounded-3xl">
@@ -82,7 +35,7 @@ const UnifiedCommunicationSolution = () => {
             Features of Unified Communications Solutions
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600  mt-4 max-w-6xl mx-auto">
-            At Ecosmob, we don’t just focus on your business; we also consider
+            At Ayanshtech, we don’t just focus on your business; we also consider
             the needs of our customers’ customers. We know that today’s
             businesses need more than a standard telephony system. They need a
             robust solution to handle PBX features yet lightweight enough to
@@ -176,7 +129,7 @@ const UnifiedCommunicationSolution = () => {
           Your Custom Unified Communications Solution
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Our base solution is just the starting point. At Ecosmob, we customize
+          Our base solution is just the starting point. At Ayanshtech, we customize
           and deliver additional features that align perfectly with your
           specific needs—or those of your customers. Whether you need advanced
           communication tools or specific functionalities, including but not

@@ -28,7 +28,7 @@ const QAEngineers = () => {
               The success of a delivered product is in its quality deliverance.
               The QA plays a vital role in ensuring the standards are adhered to
               from beginning to end, providing no defects in the end product or
-              solution. Hire QA Engineers from Ecosmob to build and deploy
+              solution. Hire QA Engineers from Ayanshtech to build and deploy
               robust and reasonable quality solutions. Our dedicated team of QA
               engineers focuses on the parts and products for the customer by
               identifying the core issues and intend for quality and customer
@@ -148,7 +148,7 @@ const QAEngineers = () => {
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
           Accelerate your product launch without compromising on quality with
-          our pool of skilled QA specialists. Hire QA Engineer team from Ecosmob
+          our pool of skilled QA specialists. Hire QA Engineer team from Ayanshtech
           and ensure the quality software for delivery.
         </p>
       </div>

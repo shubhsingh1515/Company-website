@@ -30,7 +30,7 @@ const LaravelDevelopers = () => {
               <br />
               <br />
               Hire dedicated Laravel developers to work on your project
-              impeccably. Developers from Ecosmob work for your subsequent web
+              impeccably. Developers from Ayanshtech work for your subsequent web
               app development and our Laravel programmers for hire have a
               thorough understanding of the framework and vast abilities and
               expertise in developing all types and sizes of apps using it.

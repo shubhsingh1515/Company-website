@@ -22,7 +22,7 @@ const AndroidDevelopers = () => {
             <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3">
               Hire Android programmers who are highly skilled and experienced to
               bring your Android app ideas to life. With a team of professional
-              Android developers for hire, Ecosmob is one of the most trusted
+              Android developers for hire, Ayanshtech is one of the most trusted
               outsourcing providers of the best Android developers offshore.
               Android is amongst best platforms to build a mobile app for your
               business/brand as it is an open-source platform allowing UI
@@ -32,7 +32,7 @@ const AndroidDevelopers = () => {
               <br />
               <br />
               You can always and anytime prioritize expert android application
-              developer for hire from Ecosmob to newly usher your business in a
+              developer for hire from Ayanshtech to newly usher your business in a
               lucrative direction.
             </p>
             <button className="bg-blue-700 text-white py-2 px-4 rounded-full mt-6">
@@ -124,7 +124,7 @@ const AndroidDevelopers = () => {
           Seasoned Android Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire professional Android App Developers from Ecosmob to bring your
+          Hire professional Android App Developers from Ayanshtech to bring your
           Android app ideas to life.
         </p>
       </div>

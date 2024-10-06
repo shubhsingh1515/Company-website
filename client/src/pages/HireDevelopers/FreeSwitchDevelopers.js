@@ -25,8 +25,8 @@ const FreeSwitchDevelopers = () => {
               libraries and modules, making it a developer’s dream. Hire a
               FreeSWITCH developer to develop solutions for your company.
               <br /> <br />
-              Ecosmob provides ability and practicality to its clients. Hire
-              FreeSWITCH programmers from Ecosmob who have mastered the subject.
+              Ayanshtech provides ability and practicality to its clients. Hire
+              FreeSWITCH programmers from Ayanshtech who have mastered the subject.
               Our team understands the architecture and platform know-how,
               allowing us to provide professional FreeSWITCH solution
               development services. We can work around the clock to develop a

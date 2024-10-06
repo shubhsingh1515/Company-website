@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -36,8 +37,8 @@ const BusinessPhoneSystem = () => {
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
             Simplify your VoIP business phone system with tailor-made solutions
-            from Ecosmob. Bid farewell to complex infrastructure maintenance and
-            optimize internal and external communications through VoIP phone
+            from Ayanshtech. Bid farewell to complex infrastructure maintenance
+            and optimize internal and external communications through VoIP phone
             systems.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
@@ -55,55 +56,7 @@ const BusinessPhoneSystem = () => {
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className="text-center bg-gray-50 rounded-3xl">
@@ -418,10 +371,13 @@ const BusinessPhoneSystem = () => {
       <div className="bg-green-50 p-8 mb-20 rounded-3xl">
         {/* Title Section */}
         <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
-        Tailored Business VoIP Phone System Solution
+          Tailored Business VoIP Phone System Solution
         </h2>
         <p className="text-center text-lg text-gray-700 mb-8">
-        A VoIP business phone system keeps you connected to telecommuters. Smooth call forwarding to the right person ensures that distance isn’t a constraint. There are several pain points that are combated using business phone system solutions.
+          A VoIP business phone system keeps you connected to telecommuters.
+          Smooth call forwarding to the right person ensures that distance isn’t
+          a constraint. There are several pain points that are combated using
+          business phone system solutions.
         </p>
 
         {/* Navigation Bar */}
@@ -451,11 +407,18 @@ const BusinessPhoneSystem = () => {
 
       <div className="text-center mb-16 mt-5 ">
         <h2 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800">
-        Why choose Ayanshtech as your Business Phone System Development Partner
+          Why choose Ayanshtech as your Business Phone System Development
+          Partner
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-6xl mx-auto">
-   
-Every organization that is operating through a brick-and-mortar store or digitally needs to communicate effectively. Even though organizations operate with messages or emails, phone calls remain as significant as ever. VoIP business phones hold high relevance, and this is why it is imperative to choose a highly functional and feasible business phone system. VoIP phone systems for businesses or enterprises are as operable as ever and take your business to the next level.
+          Every organization that is operating through a brick-and-mortar store
+          or digitally needs to communicate effectively. Even though
+          organizations operate with messages or emails, phone calls remain as
+          significant as ever. VoIP business phones hold high relevance, and
+          this is why it is imperative to choose a highly functional and
+          feasible business phone system. VoIP phone systems for businesses or
+          enterprises are as operable as ever and take your business to the next
+          level.
         </p>
       </div>
 

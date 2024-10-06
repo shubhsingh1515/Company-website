@@ -92,7 +92,7 @@ const Offering = () => {
             alt="VoIP Solutions"
             className="inline-block mb-4 hidden md:block"
           />
-          <h3 className="text-xl font-semibold mb-2">Top 10 Reasons to Choose Ecosmob for VoIP Solutions</h3>
+          <h3 className="text-xl font-semibold mb-2">Top 10 Reasons to Choose Ayanshtech for VoIP Solutions</h3>
           <p className="text-gray-600 mb-4">
             Companies are increasingly moving to VoIP solutions as times change and today’s...
           </p>
@@ -112,14 +112,14 @@ const Offering = () => {
         </div>
         <div>
           <h4 className="text-lg font-semibold">Email Enquiries</h4>
-          <p className="text-pink-600">sales@ecosmob.com</p>
+          <p className="text-pink-600">sales@Ayanshtech.com</p>
         </div>
       </div>
 
       {/* Career Enquiries */}
       <div className="text-center mt-6">
         <h4 className="text-lg font-semibold">Career Enquiries</h4>
-        <p className="text-pink-600">careers@ecosmob.com</p>
+        <p className="text-pink-600">careers@Ayanshtech.com</p>
       </div>
     </div>
   );

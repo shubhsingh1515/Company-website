@@ -43,7 +43,7 @@ const WebMobileSolutions = () => {
               Stand out of the crowd with a bespoke web application designed
               specifically for your business requirements. Since every business
               has its own DNA, external tools might not be the best option to
-              integrate into the existing workflow. At Ecosmob, we offer you
+              integrate into the existing workflow. At Ayanshtech, we offer you
               consulting and development services to avail of custom web app
               development services that facilitate the requirement analysis
               phase, impeccable testing and delivery, and even post-delivery
@@ -64,7 +64,7 @@ const WebMobileSolutions = () => {
           Web App Development Services Processes
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
-          Being a leading VoIP Business Provider, Ecosmob offers an array of
+          Being a leading VoIP Business Provider, Ayanshtech offers an array of
           custom VoIP Solutions to improvise your business communication needs.
         </p>
       </div>

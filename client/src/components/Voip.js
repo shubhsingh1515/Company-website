@@ -15,7 +15,7 @@ const Voip = () => {
       <div className="text-center mb-20">
         <h1 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">Our Offerings</h1>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4">
-          Ecosmob offers market-leading expertise and real-time communications solutions to empower your businesses.
+          Ayanshtech offers market-leading expertise and real-time communications solutions to empower your businesses.
         </p>
         
       </div>

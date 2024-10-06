@@ -36,7 +36,7 @@ const MernDevelopers = () => {
               MERN developers have extensive experience and knowledge of working
               with related javascript frameworks. They understand the 3-tier
               architecture requirements and create stunning and
-              performance-driven applications. Ecosmob provides support to all
+              performance-driven applications. Ayanshtech provides support to all
               types of industries with their MERN developers. Build your
               business with the requisite technological support from us now if
               you hire dedicated mern developers from Ayanshtech.
@@ -65,7 +65,7 @@ const MernDevelopers = () => {
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
           Build truly functional and deployable applications with the best MERN
-          Developers. Hire MERN developers from Ecosmob to get the best
+          Developers. Hire MERN developers from Ayanshtech to get the best
           applications on board.
         </p>
       </div>
@@ -156,7 +156,7 @@ const MernDevelopers = () => {
           Seasoned MERN Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire MERN developers from Ecosmob to get full-stack knowledge of MERN
+          Hire MERN developers from Ayanshtech to get full-stack knowledge of MERN
           technology, more innovative applications, and a better time to market.
         </p>
       </div>

@@ -4,7 +4,7 @@ export const InsightsArray= [
       title: "5 Business Communication Trends to Follow in 2024",
       category: "Real Time Communications",
       date: "Sep 17, 2024",
-      image: "https://www.ecosmob.com/wp-content/uploads/2024/09/Blog-60.jpg",
+      image: "https://www.Ayanshtech.com/wp-content/uploads/2024/09/Blog-60.jpg",
     },
     {
       title: "What is 10DLC? Understanding the Future of A2P 10 DLC",
@@ -22,7 +22,7 @@ export const InsightsArray= [
         title: "5 Business Communication Trends to Follow in 2024",
         category: "Real Time Communications",
         date: "Sep 17, 2024",
-        image: "https://www.ecosmob.com/wp-content/uploads/2024/09/Blog-60.jpg",
+        image: "https://www.Ayanshtech.com/wp-content/uploads/2024/09/Blog-60.jpg",
       },
       {
         title: "What is 10DLC? Understanding the Future of A2P 10 DLC",
@@ -40,7 +40,7 @@ export const InsightsArray= [
         title: "5 Business Communication Trends to Follow in 2024",
         category: "Real Time Communications",
         date: "Sep 17, 2024",
-        image: "https://www.ecosmob.com/wp-content/uploads/2024/09/Blog-60.jpg",
+        image: "https://www.Ayanshtech.com/wp-content/uploads/2024/09/Blog-60.jpg",
       },
       {
         title: "What is 10DLC? Understanding the Future of A2P 10 DLC",

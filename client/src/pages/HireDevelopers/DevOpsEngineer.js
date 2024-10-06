@@ -25,13 +25,13 @@ const DevOpsEngineers = () => {
               hassle-free? If yes, then your answer is DevOps. The enterprises
               that adopt DevOps culture, practices, and tools successfully make,
               deploy high-performing, collaborative, fast, result-driven
-              products and services. Hire team of DevOps engineers from Ecosmob
+              products and services. Hire team of DevOps engineers from Ayanshtech
               to avail the best development and operations process amalgamated
               into one.
               <br /> <br />
               So, what are you waiting for? If you want to build and deploy your
               products 2X faster than your competitors, it’s high time for you
-              to hire DevOps engineers team from Ecosmob. Our DevOps engineers
+              to hire DevOps engineers team from Ayanshtech. Our DevOps engineers
               have rich experience in the tools, techniques, methodologies, and
               processes that improve productivity and collaboration and help you
               achieve your business goals.
@@ -57,7 +57,7 @@ const DevOpsEngineers = () => {
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
           Our team of DevOps developers is skilled in handling complex solutions
-          that will scale up your business. Hire DevOps programmer from Ecosmob
+          that will scale up your business. Hire DevOps programmer from Ayanshtech
           who are highly professional in the services.
         </p>
       </div>
@@ -146,7 +146,7 @@ const DevOpsEngineers = () => {
           Hire DevOps engineers who bring people, processes and technology to
           one place to create better products for customers. It gives you the
           ability to better respond to your customer needs. Hire best team of
-          DevOps developers with help of Ecosmob.
+          DevOps developers with help of Ayanshtech.
         </p>
       </div>
 
@@ -170,7 +170,7 @@ const DevOpsEngineers = () => {
 
               <div>
                 <p className="text-lg">
-                  DevOps engineers and managers at Ecosmob are highly trained,
+                  DevOps engineers and managers at Ayanshtech are highly trained,
                   certified, and well-versed.
                 </p>
               </div>

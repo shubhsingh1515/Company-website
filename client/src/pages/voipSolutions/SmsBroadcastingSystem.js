@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -47,68 +48,20 @@ const SmsBroadcastingSystem = () => {
             Text/Voice broadcasting solutions help deliver essential
             notifications on time, most efficiently, and conveniently.
             Multi-tenant broadcasting solution is a direct and timely way to
-            communicate with your customers and audiences. Ecosmob provides a
+            communicate with your customers and audiences. Ayanshtech provides a
             custom-built SMS/Voice message broadcasting solution with 3rd party
             API integration capability to ensure hassle-free, smooth, and
             cost-effective operation.
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className="text-center bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5 ">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Core Features of Ecosmob Voice/SMS Broadcasting Solution
+            Core Features of Ayanshtech Voice/SMS Broadcasting Solution
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
             Reach more customers than ever before with our automated
@@ -431,21 +384,21 @@ const SmsBroadcastingSystem = () => {
 
       <div className="text-center mb-16 mt-5 ">
         <h2 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800">
-          Why choose Ecosmob as your Voice/SMS Broadcasting Solution Development
-          partner
+          Why choose Ayanshtech as your Voice/SMS Broadcasting Solution
+          Development partner
         </h2>
         <p className="sm:text-base md:text-lg lg:text-lg text-gray-600 mt-4 max-w-6xl mx-auto">
           Voice/SMS broadcasting has gained traction in the last couple of
-          years. Ecosmob uses this cutting-edge technology incorporated into
-          your apps that doesn’t go out of fashion in the long term. Ecosmob’s
-          fully customized Voice/SMS broadcasting solution is advanced automated
-          software for small and large enterprises. We deliver robust web-based
-          solutions that don’t require hardware switching for different Voice
-          Broadcast Company/Text Broadcasting Service providers. Our
-          Multi-Tenant Broadcasting Solutions are helpful for inbound marketing
-          that generate leads that can convert. As a Voice Broadcasting Software
-          Development company, you can have a 3rd party API integration for
-          flawless and cost-effective functioning.
+          years. Ayanshtech uses this cutting-edge technology incorporated into
+          your apps that doesn’t go out of fashion in the long term.
+          Ayanshtech’s fully customized Voice/SMS broadcasting solution is
+          advanced automated software for small and large enterprises. We
+          deliver robust web-based solutions that don’t require hardware
+          switching for different Voice Broadcast Company/Text Broadcasting
+          Service providers. Our Multi-Tenant Broadcasting Solutions are helpful
+          for inbound marketing that generate leads that can convert. As a Voice
+          Broadcasting Software Development company, you can have a 3rd party
+          API integration for flawless and cost-effective functioning.
         </p>
       </div>
 

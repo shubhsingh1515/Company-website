@@ -54,6 +54,7 @@ import WebRTc from "./pages/offerings/voip/WebRTc.js";
 
 
 
+
 function App() {
   return (
     <Router>
@@ -71,7 +72,6 @@ function App() {
         //Hire Developers
         <Route path="/hire-android-developers" element={<AndroidDevelopers/>} />
         <Route path="/hire-asterisk-developers" element={<AsteriskDeveloper/>} />
-        <Route path="/hire-aws-engineers" element={<AWSCertifiedEngineers/>} />
         <Route path="/hire-aws-engineers" element={<AWSCertifiedEngineers/>} />
         <Route path="/hire-aws-migration-engineers" element={<AWSMigrationEngineers/>} />
         <Route path="/hire-devops-engineers" element={<DevOpsEngineers/>} />
@@ -110,10 +110,9 @@ function App() {
         //Offerings -- VoIP
         <Route path="/asterisk" element={<Asterisk/>} />
         <Route path="/freeswitch" element={<FreeSwitch/>} />
-        <Route path="/freeswitch" element={<Kamailio/>} />
-        <Route path="/freeswitch" element={<OpenSips/>} />
-        <Route path="/freeswitch" element={<WebRTc/>} />
-
+        <Route path="/kamailio" element={<Kamailio/>} />
+        <Route path="/opensips" element={<OpenSips/>} />
+        <Route path="/webrtc" element={<WebRTc/>} />
         
         
       </Routes>

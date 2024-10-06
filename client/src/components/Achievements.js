@@ -4,9 +4,12 @@ const Achievements = () => {
   return (
     <div className="bg-white ">
       <div className="text-center mt-10 mb-4 py-20 ">
-        <h1 className="font-bold text-gray-800 mb-2 sm:text-3xl md:text-4xl lg:text-5xl">Our Achievements</h1>
+        <h1 className="font-bold text-gray-800 mb-2 sm:text-3xl md:text-4xl lg:text-5xl">
+          Our Achievements
+        </h1>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600">
-          Fortunate to achieve this milestone through the dedication of our team all these years.
+          Fortunate to achieve this milestone through the dedication of our team
+          all these years.
         </p>
       </div>
       <div className="flex justify-center">
@@ -21,16 +24,9 @@ const Achievements = () => {
             </div>
             <div className="flex-shrink-0">
               <img
-                src="\assets\images\achievements\it.png"
-                alt="Information Technology Award 2023"
-                className="w-60 h-50 mx-auto object-cover"
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <img
                 src="\assets\images\achievements\TA-2023.png"
                 alt="Telecom Awards 2023"
-               className="w-60 h-50 mx-auto object-cover"
+                className="w-60 h-50 mx-auto object-cover"
               />
             </div>
             <div className="flex-shrink-0">
@@ -72,7 +68,7 @@ const Achievements = () => {
               <img
                 src="\assets\images\achievements\goodFirms.png"
                 alt="Good Firms"
-               className="w-60 h-50 mx-auto object-cover"
+                className="w-60 h-50 mx-auto object-cover"
               />
             </div>
             <div className="flex-shrink-0">

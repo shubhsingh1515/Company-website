@@ -26,7 +26,7 @@ const L2L2SupportEngineers = () => {
               issue and offer a quick solution.
               <br />
               <br />
-              Technical help for any VoIP issue is given via Ecosmob. The L2/L3
+              Technical help for any VoIP issue is given via Ayanshtech. The L2/L3
               Technical Support Engineer will resolve the queries that the L1
               engineer escalates or routes in consultation with the customer. In
               addition, they’ll occasionally collaborate with the L1 Support

@@ -8,7 +8,7 @@ const AyanshtechAdvantage = () => {
           Ayanshtech Advantage
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-6xl mx-auto">
-          With Ecosmob, you can hire skilled and certified developers at an
+          With Ayanshtech, you can hire skilled and certified developers at an
           hourly, part-time, or full-time contract hiring arrangement.
         </p>
       </div>

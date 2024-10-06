@@ -29,7 +29,7 @@ const AWSCertifiedEngineers = () => {
               testing environments. AWS certified professionals bring the best
               to your plate and help you redefine your business output.
               <br /> <br />
-              When you hire AWS Certified Engineer from Ecosmob, you are hiring
+              When you hire AWS Certified Engineer from Ayanshtech, you are hiring
               one of the best resources for your business. Our AWS certified
               engineers know how to build, maintain and manage the AWS
               infrastructure.
@@ -122,7 +122,7 @@ const AWSCertifiedEngineers = () => {
           Seasoned AWS Certified Engineers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire AWS certified engineers from Ecosmob and kickstart your
+          Hire AWS certified engineers from Ayanshtech and kickstart your
           business’s journey into cloud systems with experts.
         </p>
       </div>

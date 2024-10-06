@@ -60,7 +60,7 @@ const VoIPBusinessSolutions = () => {
               can design and develop an array of customized business
               communication apps. Our team has the right blend of expertise and
               a decade of experience in VoIP software development. Consequently,
-              Ecosmob helps you save time and cost with its high-quality,
+              Ayanshtech helps you save time and cost with its high-quality,
               cost-effective business VoIP solutions.
             </p>
           </div>
@@ -72,7 +72,7 @@ const VoIPBusinessSolutions = () => {
           Custom VoIP Solutions We Offer
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
-          Being a leading VoIP Business Provider, Ecosmob offers an array of
+          Being a leading VoIP Business Provider, Ayanshtech offers an array of
           custom VoIP Solutions to improvise your business communication needs.
         </p>
       </div>
@@ -386,7 +386,7 @@ const VoIPBusinessSolutions = () => {
         </div>
         <div className="p-6 bg-white shadow-md rounded-lg">
           <p className="sm:text-base md:text-lg lg:text-xl">
-            Ecosmob believes in delivering projects on time and is highly
+            Ayanshtech believes in delivering projects on time and is highly
             punctual and professional.
           </p>
         </div>

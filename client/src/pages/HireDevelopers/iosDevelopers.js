@@ -24,10 +24,10 @@ const IosDevelopers = () => {
               Whether you are a startup, SME, or a large enterprise, offering
               the best iOS services and solutions to the end customers is always
               a top priority for every business. Therefore, hire iOS experts
-              from Ecosmob to provide you with resources and teams that
+              from Ayanshtech to provide you with resources and teams that
               translate your dream app into reality.
               <br /> <br />
-              Hire iOS developers from Ecosmob and build advanced and powerful
+              Hire iOS developers from Ayanshtech and build advanced and powerful
               iOS applications for your end customers. Our developers are highly
               skilled with Swift, Objective C, and more that will provide you
               with the best applications. Fill in the gap in your development
@@ -125,7 +125,7 @@ const IosDevelopers = () => {
           Hire Seasoned iOS Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire iOS developers from Ecosmob and build applications for iPhones,
+          Hire iOS developers from Ayanshtech and build applications for iPhones,
           iPads, and Wearables. We are fine-tuned with the latest iOS SDKs,
           XCode IDE, UI kit, and version updates and upgrades and help you
           create the most exemplary iOS applications.

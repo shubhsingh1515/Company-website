@@ -25,13 +25,13 @@ const ReactDeveloper = () => {
               Hire ReactJs Developers
             </h2>
             <p className="sm:text-base md:text-lg lg:text-lg  leading-relaxed mb-3">
-              As a top ReactJS Development Company, Ecosmob has extensive
+              As a top ReactJS Development Company, Ayanshtech has extensive
               experience completing the most difficult ReactJS Development
               projects with ReactJS programmers. You can also hire ReactJS
               developer from any leading company to get your business app up.
               <br />
               <br />
-              We at Ecosmob provide cost-effective and committed ReactJS
+              We at Ayanshtech provide cost-effective and committed ReactJS
               development services. Our experienced ReactJS engineers are
               familiar with React versions 0.3.0 to 17.0.2. They also have
               extensive knowledge of JS foundations, Redux, ES6, Git toolkit,
@@ -62,7 +62,7 @@ const ReactDeveloper = () => {
           Expertise Of Our ReactJs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire ReactJS developers from Ecosmob to provide various services to an
+          Hire ReactJS developers from Ayanshtech to provide various services to an
           international clientele. Our ReactJS programmers can quickly create a
           web solution that fits your current company model.
         </p>

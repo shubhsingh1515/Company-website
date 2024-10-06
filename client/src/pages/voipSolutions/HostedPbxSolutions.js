@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -41,7 +42,7 @@ const HostedPbxSolutions = () => {
             multi-tenant IP PBX solution.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
-            Ecosmob expedites hosted multi-tenant IP PBX development solution
+            Ayanshtech expedites hosted multi-tenant IP PBX development solution
             process that connects users anytime and anywhere for effective
             collaboration and communication. Additionally, a multi-tenant IP PBX
             solution augments connecting remote branches or offering PBX
@@ -51,55 +52,7 @@ const HostedPbxSolutions = () => {
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className=" bg-gray-50 rounded-3xl">
@@ -508,16 +461,16 @@ const HostedPbxSolutions = () => {
       <div>
         <div className="text-center mb-12 mt-5 max-w-6xl">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Why Choose Ecosmob’s Multi-Tenant PBX Solution
+            Why Choose Ayanshtech’s Multi-Tenant PBX Solution
           </h2>
           <p className="sm:text-base lg:text-lg mt-5 p-5">
-            Ecosmob’s hosted multi-tenant IP PBX solution development process is
-            an excellent way to umbrella your employee communication base under
-            a canopy. Organizations with branches globally can leverage the
-            benefit of custom-built centralized multi-tenant IP PBX software by
-            Ecosmob for a localized experience. You can have a better shot at
-            collaboration, and besides all, you have a watertight security model
-            that safeguards your online presence.
+            Ayanshtech’s hosted multi-tenant IP PBX solution development process
+            is an excellent way to umbrella your employee communication base
+            under a canopy. Organizations with branches globally can leverage
+            the benefit of custom-built centralized multi-tenant IP PBX software
+            by Ayanshtech for a localized experience. You can have a better shot
+            at collaboration, and besides all, you have a watertight security
+            model that safeguards your online presence.
           </p>
         </div>
       </div>

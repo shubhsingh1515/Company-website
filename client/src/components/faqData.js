@@ -29,20 +29,20 @@ const voipFaqs = [
   },
   {
     question:
-      "Can Ecosmob's VoIP service be customized to fit specific business needs?",
+      "Can Ayanshtech's VoIP service be customized to fit specific business needs?",
     answer:
-      "Yes, Ecosmob offers tailored VoIP solutions to match your specific business requirements.",
+      "Yes, Ayanshtech offers tailored VoIP solutions to match your specific business requirements.",
   },
   {
-    question: "How does Ecosmob ensure the security of its VoIP service?",
+    question: "How does Ayanshtech ensure the security of its VoIP service?",
     answer:
-      "Ecosmob uses advanced encryption technologies and secure protocols to ensure the safety and security of your voice communications.",
+      "Ayanshtech uses advanced encryption technologies and secure protocols to ensure the safety and security of your voice communications.",
   },
   {
     question:
-      "What are the benefits of using Ecosmob’s VoIP service for business communication?",
+      "What are the benefits of using Ayanshtech’s VoIP service for business communication?",
     answer:
-      "Ecosmob’s VoIP service is scalable, reliable, and packed with advanced features like call analytics, conferencing, and mobile integration.",
+      "Ayanshtech’s VoIP service is scalable, reliable, and packed with advanced features like call analytics, conferencing, and mobile integration.",
   },
   {
     question: "What does a VoIP provider do?",
@@ -121,9 +121,9 @@ const hireAndroidFaqs = [
       "Android app development is primarily done using Java or Kotlin, both of which are supported by the Android SDK.",
   },
   {
-    question: "How do I hire Android developers through Ecosmob?",
+    question: "How do I hire Android developers through Ayanshtech?",
     answer:
-      "You can hire Android developers through Ecosmob by sharing your project requirements and selecting a qualified developer from our team of experts.",
+      "You can hire Android developers through Ayanshtech by sharing your project requirements and selecting a qualified developer from our team of experts.",
   },
   {
     question: "What does an Android developer do?",
@@ -144,9 +144,9 @@ const hireAndroidFaqs = [
 
 const hireAsteriskFaqs = [
   {
-    question: "How do I hire Asterisk specialists through Ecosmob?",
+    question: "How do I hire Asterisk specialists through Ayanshtech?",
     answer:
-      "You can hire Asterisk specialists through Ecosmob by reaching out to our team, discussing your project requirements, and selecting the right expert from our pool of skilled developers.",
+      "You can hire Asterisk specialists through Ayanshtech by reaching out to our team, discussing your project requirements, and selecting the right expert from our pool of skilled developers.",
   },
   {
     question: "What is the cost of hiring an Asterisk developer?",
@@ -186,7 +186,7 @@ const AWSCertifiedEngineersFaqs = [
 const AWSMigrationEngineersFaqs = [
   {
     question:
-      "What is the procedure for hiring an Ecosmob dedicated AWS Migration resource?",
+      "What is the procedure for hiring an Ayanshtech dedicated AWS Migration resource?",
     answer:
       "The procedure involves understanding your project needs, selecting a certified AWS migration expert, and aligning them with your goals after technical assessments.",
   },
@@ -237,9 +237,9 @@ const hireDevOpsFaqs = [
       "Yes, DevOps practices like continuous monitoring, automated testing, and early detection of vulnerabilities help improve system security. This approach integrates security throughout the development lifecycle, often referred to as DevSecOps.",
   },
   {
-    question: "What types of DevOps services does Ecosmob provide?",
+    question: "What types of DevOps services does Ayanshtech provide?",
     answer:
-      "Ecosmob offers a wide range of DevOps services, including infrastructure management, continuous integration/continuous delivery (CI/CD), cloud automation, containerization, monitoring, and security integration.",
+      "Ayanshtech offers a wide range of DevOps services, including infrastructure management, continuous integration/continuous delivery (CI/CD), cloud automation, containerization, monitoring, and security integration.",
   },
 ];
 
@@ -255,9 +255,9 @@ const FreeSwitchDevelopersFaqs = [
       "FreeSWITCH is used for building a wide range of communication applications, including VoIP services, video conferencing, call centers, and unified communications solutions. It supports multiple protocols and can scale easily.",
   },
   {
-    question: "Why choose Ecosmob for FreeSWITCH Development Services?",
+    question: "Why choose Ayanshtech for FreeSWITCH Development Services?",
     answer:
-      "Ecosmob offers specialized FreeSWITCH development services with a team of experienced developers. We provide tailored solutions, ongoing support, and ensure that your communication applications are built to meet your specific needs.",
+      "Ayanshtech offers specialized FreeSWITCH development services with a team of experienced developers. We provide tailored solutions, ongoing support, and ensure that your communication applications are built to meet your specific needs.",
   },
   {
     question: "How can FreeSWITCH solution development help my business?",
@@ -303,9 +303,9 @@ const IosDevelopersFaqs = [
 
 const KamailioDevFaqs = [
   {
-    question: "How do I hire Kamailio developers through Ecosmob?",
+    question: "How do I hire Kamailio developers through Ayanshtech?",
     answer:
-      "To hire Kamailio developers through Ecosmob, you can visit our website and fill out the contact form with your project details. Our team will review your requirements and connect you with suitable Kamailio developers.",
+      "To hire Kamailio developers through Ayanshtech, you can visit our website and fill out the contact form with your project details. Our team will review your requirements and connect you with suitable Kamailio developers.",
   },
   {
     question: "Is Kamailio free?",
@@ -355,9 +355,9 @@ const LaravelDevFaqs = [
       "Laravel is a PHP web application framework used for developing robust and scalable web applications. It provides a clean and elegant syntax, built-in tools for routing, authentication, and database management, making it easier to develop complex applications.",
   },
   {
-    question: "How do I hire Laravel developers through Ecosmob?",
+    question: "How do I hire Laravel developers through Ayanshtech?",
     answer:
-      "You can hire Laravel developers through Ecosmob by contacting us directly, discussing your project requirements, and selecting the right developers from our pool of skilled professionals based on your needs and budget.",
+      "You can hire Laravel developers through Ayanshtech by contacting us directly, discussing your project requirements, and selecting the right developers from our pool of skilled professionals based on your needs and budget.",
   },
   {
     question: "What does a Laravel developer do?",
@@ -367,15 +367,15 @@ const LaravelDevFaqs = [
   {
     question: "What is the cost of hiring a Laravel developer?",
     answer:
-      "The cost of hiring a Laravel developer varies based on factors such as their experience level, location, and the complexity of your project. Ecosmob provides flexible hiring options to meet different budget requirements.",
+      "The cost of hiring a Laravel developer varies based on factors such as their experience level, location, and the complexity of your project. Ayanshtech provides flexible hiring options to meet different budget requirements.",
   },
 ];
 
 const MernDevFaqs = [
   {
-    question: "How to Hire a MERN developer Via Ecosmob?",
+    question: "How to Hire a MERN developer Via Ayanshtech?",
     answer:
-      "You can hire a MERN developer via Ecosmob by discussing your project requirements with us, reviewing our pool of talented MERN developers, and selecting the best match for your needs.",
+      "You can hire a MERN developer via Ayanshtech by discussing your project requirements with us, reviewing our pool of talented MERN developers, and selecting the best match for your needs.",
   },
   {
     question: "We do not know the technology; how will it work?",
@@ -390,7 +390,7 @@ const MernDevFaqs = [
   {
     question: "Can We Interview the MERN Developer?",
     answer:
-      "Yes, Ecosmob allows you to interview the MERN developer before hiring to ensure they are the right fit for your project.",
+      "Yes, Ayanshtech allows you to interview the MERN developer before hiring to ensure they are the right fit for your project.",
   },
 ];
 
@@ -424,9 +424,9 @@ const OpenSipDevFaqs = [
       "You can hire OpenSIPs developers on a full-time, part-time, or hourly basis. We offer flexible engagement models to match your project requirements and budget. You can also hire developers for specific tasks or for long-term projects, depending on your needs.",
   },
   {
-    question: "How do I hire an OpenSIPs developer from Ecosmob?",
+    question: "How do I hire an OpenSIPs developer from Ayanshtech?",
     answer:
-      "To hire an OpenSIPs developer from Ecosmob, simply reach out to us with your project requirements. We will provide you with a list of skilled developers, and you can conduct interviews, review their expertise, and select the best candidate for your project.",
+      "To hire an OpenSIPs developer from Ayanshtech, simply reach out to us with your project requirements. We will provide you with a list of skilled developers, and you can conduct interviews, review their expertise, and select the best candidate for your project.",
   },
   {
     question: "What industry is OpenSIPs best suited for?",
@@ -463,7 +463,7 @@ const QaEngFaqs = [
   {
     question: "How much does it cost to hire QA engineers?",
     answer:
-      "The cost to hire QA engineers varies depending on experience, location, and engagement model. On average, QA engineers can cost between $20 to $100 per hour. Ecosmob offers flexible pricing options, including full-time, part-time, and hourly rates to match your project's needs and budget.",
+      "The cost to hire QA engineers varies depending on experience, location, and engagement model. On average, QA engineers can cost between $20 to $100 per hour. Ayanshtech offers flexible pricing options, including full-time, part-time, and hourly rates to match your project's needs and budget.",
   },
   {
     question: "Do I require a QA engineer?",
@@ -478,7 +478,7 @@ const QaEngFaqs = [
   {
     question: "Can I hire QA engineers on a part-time or hourly basis?",
     answer:
-      "Yes, at Ecosmob, you can hire QA engineers on a part-time, full-time, or hourly basis based on your project requirements and budget. Our flexible engagement models allow you to scale up or down depending on your needs.",
+      "Yes, at Ayanshtech, you can hire QA engineers on a part-time, full-time, or hourly basis based on your project requirements and budget. Our flexible engagement models allow you to scale up or down depending on your needs.",
   },
   {
     question: "Does QA help with the code as well?",
@@ -486,9 +486,9 @@ const QaEngFaqs = [
       "While QA engineers primarily focus on testing and ensuring the quality of the application, they may collaborate with developers to help debug issues, review testable code, and suggest improvements. However, their primary role is to validate the performance and reliability of the application, not to write the production code itself.",
   },
   {
-    question: "How can I hire QA engineers from Ecosmob?",
+    question: "How can I hire QA engineers from Ayanshtech?",
     answer:
-      "You can hire QA engineers from Ecosmob by reaching out to us with your project requirements. We will assess your needs and match you with experienced QA engineers who are skilled in your domain. We offer flexible hiring models to ensure a perfect fit for your project.",
+      "You can hire QA engineers from Ayanshtech by reaching out to us with your project requirements. We will assess your needs and match you with experienced QA engineers who are skilled in your domain. We offer flexible hiring models to ensure a perfect fit for your project.",
   },
 ];
 
@@ -501,13 +501,13 @@ const reactDevFaqs = [
   {
     question: "How much does it cost for a React website?",
     answer:
-      "The cost of developing a React website depends on the scope of the project, design complexity, features required, and developer rates. On average, a React website can cost anywhere between $5,000 to $50,000 or more. Contact Ecosmob for a detailed estimate tailored to your specific project.",
+      "The cost of developing a React website depends on the scope of the project, design complexity, features required, and developer rates. On average, a React website can cost anywhere between $5,000 to $50,000 or more. Contact Ayanshtech for a detailed estimate tailored to your specific project.",
   },
   {
     question:
       "Will I have a dedicated manager to oversee the development of ReactJS?",
     answer:
-      "Yes, when you hire ReactJS developers from Ecosmob, you will have a dedicated project manager to oversee the entire development process. The project manager will ensure smooth communication, timely delivery, and that all your requirements are met throughout the project.",
+      "Yes, when you hire ReactJS developers from Ayanshtech, you will have a dedicated project manager to oversee the entire development process. The project manager will ensure smooth communication, timely delivery, and that all your requirements are met throughout the project.",
   },
   {
     question: "Why is React JS so widely used?",
@@ -529,9 +529,9 @@ const reactNativeDevFaqs = [
       "React Native is primarily used for front-end development. It allows developers to build mobile app user interfaces that run on both iOS and Android platforms using a single codebase, providing a native-like experience for users.",
   },
   {
-    question: "Why should you hire React Native developers from Ecosmob?",
+    question: "Why should you hire React Native developers from Ayanshtech?",
     answer:
-      "Hiring React Native developers from Ecosmob ensures that you work with highly skilled professionals who have vast experience in developing cross-platform mobile apps. We focus on delivering high-performance applications, ensuring timely delivery, and providing post-development support.",
+      "Hiring React Native developers from Ayanshtech ensures that you work with highly skilled professionals who have vast experience in developing cross-platform mobile apps. We focus on delivering high-performance applications, ensuring timely delivery, and providing post-development support.",
   },
   {
     question: "Is React Native appropriate for mobile app development?",
@@ -541,7 +541,7 @@ const reactNativeDevFaqs = [
   {
     question: "What does it cost to use React Native?",
     answer:
-      "The cost of using React Native depends on the complexity of the project, the number of features, design requirements, and development hours. On average, React Native development costs range between $10,000 to $100,000 or more. Contact Ecosmob for a customized quote based on your project needs.",
+      "The cost of using React Native depends on the complexity of the project, the number of features, design requirements, and development hours. On average, React Native development costs range between $10,000 to $100,000 or more. Contact Ayanshtech for a customized quote based on your project needs.",
   },
   {
     question:
@@ -581,9 +581,9 @@ const VoipDevFaqs = [
       "VoIP (Voice over Internet Protocol) is a technology that allows voice communication and multimedia sessions over the Internet. It’s important because it offers cost-effective, flexible, and scalable solutions for voice communication, reducing the need for traditional phone systems and enabling businesses to communicate globally with ease.",
   },
   {
-    question: "How do I hire VoIP developers through Ecosmob?",
+    question: "How do I hire VoIP developers through Ayanshtech?",
     answer:
-      "To hire VoIP developers through Ecosmob, you simply need to share your project requirements with us. We will provide you with a list of qualified developers who specialize in VoIP technology, and you can choose the best fit for your project. We offer flexible hiring models including full-time, part-time, or hourly-based hiring.",
+      "To hire VoIP developers through Ayanshtech, you simply need to share your project requirements with us. We will provide you with a list of qualified developers who specialize in VoIP technology, and you can choose the best fit for your project. We offer flexible hiring models including full-time, part-time, or hourly-based hiring.",
   },
   {
     question: "What does a VoIP developer do?",
@@ -609,9 +609,9 @@ const WebRtcDevFaqs = [
       "Yes, WebRTC is designed with security in mind. It uses encryption protocols like DTLS (Datagram Transport Layer Security) and SRTP (Secure Real-Time Transport Protocol) to ensure that audio and video streams are securely transmitted over the internet, protecting user data and preventing unauthorized access.",
   },
   {
-    question: "How do I hire WebRTC programmers through Ecosmob?",
+    question: "How do I hire WebRTC programmers through Ayanshtech?",
     answer:
-      "To hire WebRTC programmers through Ecosmob, you can start by sharing your project requirements with us. Our team will connect you with skilled WebRTC developers who meet your specifications, and you can choose the best candidates based on their expertise and your project needs. We offer flexible hiring options, including full-time, part-time, or hourly contracts.",
+      "To hire WebRTC programmers through Ayanshtech, you can start by sharing your project requirements with us. Our team will connect you with skilled WebRTC developers who meet your specifications, and you can choose the best candidates based on their expertise and your project needs. We offer flexible hiring options, including full-time, part-time, or hourly contracts.",
   },
   {
     question: "What does a WebRTC developer do?",

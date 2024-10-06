@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -38,7 +39,7 @@ const ContactCenterSolution = () => {
             Ayanshtech’s bespoke IVR solutions have allowed organizations to
             gain a competitive edge. Its IVR software development is a component
             of the IVR project where the team is employed in designing an
-            automated calling machine solution. Ecosmob equips to establish a
+            automated calling machine solution. Ayanshtech equips to establish a
             dynamic IVR builder to offer exemplary IVR solutions for the clients
             per their requirements. With our best IVR software development
             module, we provide a great calling and customer-friendly experience.
@@ -54,55 +55,7 @@ const ContactCenterSolution = () => {
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className="text-center bg-gray-50 rounded-3xl">
@@ -372,10 +325,11 @@ const ContactCenterSolution = () => {
             Smart IVR solution
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-6xl mx-auto">
-            Ecosmob offers best-of-breed IVR solutions with excellent design and
-            seamless experience. Here we design several types of IVR solutions,
-            viz. IVR for self-service, Hosted IVR, Agent-assisted IVR, and more.
-            Several touch points make IVR solutions by Ecosmob unique.
+            Ayanshtech offers best-of-breed IVR solutions with excellent design
+            and seamless experience. Here we design several types of IVR
+            solutions, viz. IVR for self-service, Hosted IVR, Agent-assisted
+            IVR, and more. Several touch points make IVR solutions by Ayanshtech
+            unique.
           </p>
         </div>
 
@@ -462,10 +416,13 @@ const ContactCenterSolution = () => {
       <div className="bg-green-50 p-8 mb-20 rounded-3xl">
         {/* Title Section */}
         <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
-        Tailored IVR Solution
+          Tailored IVR Solution
         </h2>
         <p className="text-center text-lg text-gray-700 mb-8">
-        Our dynamic IVR Builder ensures that multi-level support is given to the customer while connecting with the contact center. You can integrate the IVR with any CRM for full functionality. There are several pain points that are combated using IVR solution.
+          Our dynamic IVR Builder ensures that multi-level support is given to
+          the customer while connecting with the contact center. You can
+          integrate the IVR with any CRM for full functionality. There are
+          several pain points that are combated using IVR solution.
         </p>
 
         {/* Navigation Bar */}
@@ -495,12 +452,20 @@ const ContactCenterSolution = () => {
 
       <div className="text-center mb-16 mt-5 ">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-        Why choose Ayanshtech as your IVR solution partner
+          Why choose Ayanshtech as your IVR solution partner
         </h2>
         <p className="sm:text-base md:text-lg lg:text-lg text-gray-600 mt-4 max-w-6xl mx-auto">
-        IVR is the first point of contact while connecting with a Contact Center. The IVR solution deployed at the Contact Center greets you first and provides multiple options. With the robust features of custom-made IVR solutions developed by Ecosmob, you can handle a massive volume of calls made per second. The interactive voice response solution lets you skim through the options quickly, especially during peak calling hours when you might have to wait in a queue. The smart on-demand IVR solutions by Ecosmob have instant set-up, cost-effective pricing, real-time reporting, CRM integration, a user-friendly portal, and more.
+          IVR is the first point of contact while connecting with a Contact
+          Center. The IVR solution deployed at the Contact Center greets you
+          first and provides multiple options. With the robust features of
+          custom-made IVR solutions developed by Ayanshtech, you can handle a
+          massive volume of calls made per second. The interactive voice
+          response solution lets you skim through the options quickly,
+          especially during peak calling hours when you might have to wait in a
+          queue. The smart on-demand IVR solutions by Ayanshtech have instant
+          set-up, cost-effective pricing, real-time reporting, CRM integration,
+          a user-friendly portal, and more.
         </p>
-  
       </div>
 
       <GetInTouch />

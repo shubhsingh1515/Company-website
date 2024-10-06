@@ -62,7 +62,7 @@ const PythonDeveloper = () => {
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
           We trust the most innovative tools to influence the development by our
-          expert developers. You can hire Python developers from Ecosmob to
+          expert developers. You can hire Python developers from Ayanshtech to
           curate top-notch apps.
         </p>
       </div>

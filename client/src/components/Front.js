@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css'
+import "../App.css";
 
 const FrontPage = () => {
   return (
@@ -7,19 +7,19 @@ const FrontPage = () => {
       {/* Section for title and button */}
       <div className="lg:w-1/2 sm:w-full flex flex-col items-start py-9 mt-10 ml-10">
         <h1 className=" sm: text-5xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
-          Makes your Vision <br /> a Reality
+        Transform your Dreams <br/> into Reality
         </h1>
         <img
           src="/assets/images/Frame.svg"
           alt="Frame"
           className="ml-25 mb-10 h-4 px-10"
-        /> 
+        />
         {/* Show this paragraph only on large screens */}
         <p className="hidden lg:block text-2xl text-gray-600 mb-6">
           Tap into the future of Real-Time Communication via custom VoIP
           software, Web & Mobile solutions.
         </p>
-        
+
         {/* Smaller button aligned to the left */}
         <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-full">
           Let’s Talk More!
@@ -71,7 +71,11 @@ const FrontPage = () => {
               className="absolute top-[95%] left-[20%] w-[120px] h-[150px] border-2 border-transparent rounded-lg transition-all duration-300 hover:scale-105"
             />
           </a>
-          <a href="link-to-real-time-communication" target="_blank" rel="noopener noreferrer">
+          <a
+            href="link-to-real-time-communication"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="/assets/images/banner/realTimeComm.svg"
               alt="Real Time Communication"
@@ -79,17 +83,15 @@ const FrontPage = () => {
             />
           </a>
         </div>
-        
+
         {/* Show only one image on small and medium screens */}
-        <div className="lg:hidden "> 
+        <div className="lg:hidden ">
           <div className="animated-image">
-          <a href="link-to-group-cards" target="_blank" rel="noopener noreferrer">
             <img
               src="/assets/images/banner/groupCards.svg"
               alt="Group Cards"
               className="block mx-auto mt-2 border-2 border-transparent rounded-lg transition-all duration-300 hover:border-green-500 hover:scale-105"
             />
-          </a>
           </div>
         </div>
       </div>

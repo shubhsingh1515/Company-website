@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { FreeSwitchDevelopersFaqs } from "../../../components/faqData.js";
-
-import Contact from "../../../components/Contact.js";
-import GetInTouch from "../../../components/GetInTouch.js";
-import AyanshtechAdvantage from "../../../components/AyanshtechAdvantage.js";
+import ContactUs from "../../../components/ContactUs.js";
 
 const pointsData = [
   {
@@ -40,7 +37,7 @@ const FreeSwitch = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
+    <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20 sm:mb-20">
       <div className="bg-white py-5 px-10 w-full">
         <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
           <div className="lg:w-3/4 text-center lg:text-left ">
@@ -63,12 +60,12 @@ const FreeSwitch = () => {
               development unlocks the telecom capability of any device.
             </p>
             <p className="sm:text-base md:text-lg lg:text-lg  leading-relaxed mb-3">
-              Ecosmob is a well-recognized 15+ years of expertise FreeSWITCH
+              Ayanshtech is a well-recognized 15+ years of expertise FreeSWITCH
               development company that has thrived a revolution in the industry
               with its technical finesse. We offer cloud-hosted APIs, commercial
               support for FreeSWITCH, and custom development.
             </p>
-            <button className="bg-blue-700 text-white py-2 px-4 rounded-full mt-6">
+            <button onClick={scrollToContact} className="bg-blue-700 text-white  hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 font-semibold py-2 px-4 rounded-full mt-6">
               Get Started
             </button>
           </div>
@@ -88,7 +85,7 @@ const FreeSwitch = () => {
           Features of FreeSWITCH Solutions
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Ecosmob builds single and multi-tenant solutions for its clients using
+          Ayanshtech builds single and multi-tenant solutions for its clients using
           FreeSWITCH, with voice mail, intercom, and call groups.
         </p>
       </div>
@@ -415,7 +412,7 @@ const FreeSwitch = () => {
             FreeSWITCH Consulting and Support Services
           </h1>
           <p className="text-gray-600 sm:text-base md:text-lg lg:text-xl max-w-7xl mx-auto">
-            Ecosmob provides FreeSWITCH consulting and support services ranging
+            Ayanshtech provides FreeSWITCH consulting and support services ranging
             from simple installation and configuration to complex deployments.
             Our team of experts with in-depth knowledge of FreeSWITCH can help
             organizations develop the best suitable, customized, and scalable
@@ -469,11 +466,16 @@ const FreeSwitch = () => {
           </div>
         ))}
       </div>
+      
 
-     <div id="contact-section" > <Contact /></div>
+     
 
-      <GetInTouch />
+      
+
+      <div id="contact-section"> <ContactUs /></div>
+      
     </div>
+    
   );
 };
 

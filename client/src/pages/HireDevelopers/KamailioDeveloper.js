@@ -24,7 +24,7 @@ const KamailioDevelopers = () => {
               Being a highly scalable technology to develop thousands of
               concurrent calls, Kamailio is one of the most preferred
               technologies by businesses with large volumes like call centers
-              and contact centers. Hire Kamailio developers from Ecosmob to
+              and contact centers. Hire Kamailio developers from Ayanshtech to
               deliver robust development services and expand your business. Our
               Kamailio developers for hire are experts in building large
               platforms for VoIP and real-time communications. It can be easily

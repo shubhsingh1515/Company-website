@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -32,63 +33,17 @@ const SmallBusinessVoipSolution = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-6 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
           <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mt-20">
-            
-VoIP Solutions For Small Business
+            VoIP Solutions For Small Business
           </h1>
           <p className="text-gray-700 text-base lg:text-xl">
-          If you have a small business and you are looking for flexible, scalable, and cost-effective VoIP solutions. We provide all types of small business VoIP solutions to help businesses stay competitive, enhance the customer experience and drive growth. 
+            If you have a small business and you are looking for flexible,
+            scalable, and cost-effective VoIP solutions. We provide all types of
+            small business VoIP solutions to help businesses stay competitive,
+            enhance the customer experience and drive growth.
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className="bg-white mb-5 px-10 w-full">
@@ -103,27 +58,36 @@ VoIP Solutions For Small Business
 
           <div className="lg:w-3/4 text-center lg:text-left">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            What is Small Business VoIP?
+              What is Small Business VoIP?
             </h2>
             <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-3">
-            Just like large enterprises, small businesses also require a unified platform to better serve their customers. VoIP for small businesses allows companies to make voice calls, and send SMS, or text messages via the Internet. 
+              Just like large enterprises, small businesses also require a
+              unified platform to better serve their customers. VoIP for small
+              businesses allows companies to make voice calls, and send SMS, or
+              text messages via the Internet.
               <br />
               <br />
-              With small business VoIP services, businesses can improve call flows and get real-time insights into their overall performance. Without incurring high costs, small businesses can enjoy various advanced VoIP call features like Interactive Voice Response (IVR), call forwarding, auto attendant, analytics and reporting, integration with other business tools, and more.
+              With small business VoIP services, businesses can improve call
+              flows and get real-time insights into their overall performance.
+              Without incurring high costs, small businesses can enjoy various
+              advanced VoIP call features like Interactive Voice Response (IVR),
+              call forwarding, auto attendant, analytics and reporting,
+              integration with other business tools, and more.
             </p>
           </div>
         </div>
       </div>
 
-
       <div className=" bg-gray-50 rounded-3xl">
         <div className="text-center mb-5 mt-5">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-          Small Business VoIP Features
+            Small Business VoIP Features
           </h2>
           <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Ayanshtech provides a unified platform for small businesses to help them manage communications and customer interactions easily and efficiently.
-          Some of the key features of VoIP services for small businesses include-
+            Ayanshtech provides a unified platform for small businesses to help
+            them manage communications and customer interactions easily and
+            efficiently. Some of the key features of VoIP services for small
+            businesses include-
           </p>
         </div>
 
@@ -221,8 +185,6 @@ VoIP Solutions For Small Business
         </div>
       </div>
 
-
-      
       <div>
         <div className="text-center mb-12 mt-5">
           <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">

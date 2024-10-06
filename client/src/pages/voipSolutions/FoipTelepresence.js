@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GetInTouch from "../../components/GetInTouch.js";
+import VoipSolContact from "../../components/VoipSolContact.js";
 
 const pointsData = [
   {
@@ -48,55 +49,7 @@ const FoipTelepresence = () => {
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex flex-col md:flex-row md:space-x-2 items-center">
-              <select className="w-full md:w-auto p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 mt-4 md:mt-0"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
       </div>
 
       <div className=" bg-gray-50 rounded-3xl">
@@ -417,10 +370,15 @@ const FoipTelepresence = () => {
             Why Choose Ayanshtech as Your Enterprise VoIP Partner
           </h2>
           <p className="sm:text-base lg:text-lg mt-5 p-5">
-          Businesses are integrating IP telephony in their IP ecosystem to reduce costs and ensure seamless communication between the stakeholders. Delivering fax between endpoints over a dedicated IP network lowers the dependability of hardware and streamlines the delivery of faxes. As a FoIP Solution Development Company, Ayanshtech ensures that the faxes are sent over IP without hiccups and communication between Virtual Fax Server solution is seamless.</p>
+            Businesses are integrating IP telephony in their IP ecosystem to
+            reduce costs and ensure seamless communication between the
+            stakeholders. Delivering fax between endpoints over a dedicated IP
+            network lowers the dependability of hardware and streamlines the
+            delivery of faxes. As a FoIP Solution Development Company,
+            Ayanshtech ensures that the faxes are sent over IP without hiccups
+            and communication between Virtual Fax Server solution is seamless.
+          </p>
         </div>
-
-        
       </div>
 
       <GetInTouch />

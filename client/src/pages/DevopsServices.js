@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { devopsConsultingFaqs } from "../components/faqData.js";
-
+import VoipSolContact from "../components/VoipSolContact.js";
 
 const DevopsServices = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -11,7 +11,7 @@ const DevopsServices = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
+    <div className=" flex flex-col items-center justify-center py-10 mt-20">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-16 py-8 bg-white min-h-screen">
         <div className="md:w-2/3 space-y-6 px-5">
           <h1 className="sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800">
@@ -29,7 +29,7 @@ const DevopsServices = () => {
             support, and security.
           </p>
           <p className="text-gray-700 text-base lg:text-xl">
-            Ecosmob brings the dev and ops teams together to work cohesively.
+            Ayanshtech brings the dev and ops teams together to work cohesively.
             Our releases are simulated in a production-like environment where
             the ops team finds the gaps in the expected solution and sends them
             to the dev team for resolution. The deployment process is done by
@@ -41,55 +41,8 @@ const DevopsServices = () => {
           </p>
         </div>
 
-        <div className="md:w-1/3 bg-white shadow-2xl rounded-2xl p-4 mt-10 md:mt-1 ">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Hey There!{" "}
-            <span role="img" aria-label="smile">
-              {" "}
-              😊
-            </span>
-          </h2>
-          <p className="text-gray-600 mb-6">We’d love to help you.</p>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter your name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <div className="flex space-x-2 items-center">
-              <select className="p-3 border rounded-lg focus:outline-none">
-                <option value="IN">🇮🇳 +91</option>
-                <option value="US">🇺🇸 +1</option>
-              </select>
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                className="flex-grow p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name*"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
-            <textarea
-              placeholder="Any Comments"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-              rows="3"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full bg-yellow-40 p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300"
-            >
-              Send <span role="img" aria-label="send"></span>
-            </button>
-          </form>
-        </div>
+        <VoipSolContact />
+        
       </div>
 
       <div className="text-center mb-5 mt-20">
@@ -103,7 +56,6 @@ const DevopsServices = () => {
       </div>
 
       <div className="bg-white p-8">
-  
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex items-start space-x-4">
             <img
@@ -347,7 +299,7 @@ const DevopsServices = () => {
         <p className="sm:text-base md:text-base lg:text-lg text-gray-700 px-6 max-w-7xl">
           As a DevOps services company, we offer advanced DevOps technologies,
           such as Git, Docker, Jenkins, and Kubernetes, to transform businesses.
-          At Ecosmob, we implement next-generation DevOps solutions that are
+          At Ayanshtech, we implement next-generation DevOps solutions that are
           agile, compliant, and secure. Our state-of-the-art DevOps services
           help companies to achieve faster time-to-market, higher-quality
           software, and greater team collaboration. We bridge business gaps and
@@ -383,7 +335,6 @@ const DevopsServices = () => {
           </div>
         ))}
       </div>
-
 
       <div className="bg-blue-700 text-white py-10 w-full rounded-xl ">
         <div className="text-center">
