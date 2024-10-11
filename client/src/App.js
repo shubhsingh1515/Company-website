@@ -52,69 +52,121 @@ import Kamailio from "./pages/offerings/voip/Kamailio.js";
 import OpenSips from "./pages/offerings/voip/OpenSips.js";
 import WebRTc from "./pages/offerings/voip/WebRTc.js";
 
-
-
-
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blogs" element={<Blogs/>}/>
-        <Route path="/contactus" element={<Contact/>}/>
-        <Route path="/voip-business-solutions" element={<VoIPBusinessSolutions/>}/>
-        <Route path="/web-mobile-solutions" element={<WebMobileSolutions/>} />
-        <Route path="/consultancy-and-discovery" element={<ConsultancyAndDiscovery/>} />
-        <Route path="/qa-services" element={<QAServices/>} />
-        <Route path="/devops-services" element={<DevopsServices/>} />
-
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contactus" element={<Contact />} />
+        <Route
+          path="/voip-business-solutions"
+          element={<VoIPBusinessSolutions />}
+        />
+        <Route path="/web-mobile-solutions" element={<WebMobileSolutions />} />
+        <Route
+          path="/consultancy-and-discovery"
+          element={<ConsultancyAndDiscovery />}
+        />
+        <Route path="/qa-services" element={<QAServices />} />
+        <Route path="/devops-services" element={<DevopsServices />} />
         //Hire Developers
-        <Route path="/hire-android-developers" element={<AndroidDevelopers/>} />
-        <Route path="/hire-asterisk-developers" element={<AsteriskDeveloper/>} />
-        <Route path="/hire-aws-engineers" element={<AWSCertifiedEngineers/>} />
-        <Route path="/hire-aws-migration-engineers" element={<AWSMigrationEngineers/>} />
-        <Route path="/hire-devops-engineers" element={<DevOpsEngineers/>} />
-        <Route path="/hire-freeswitch-developers" element={<FreeSwitchDevelopers/>} />
-        <Route path="/hire-ios-developers" element={<IosDevelopers/>} />
-        <Route path="/hire-kamailio-developers" element={<KamailioDevelopers/>} />
-        <Route path="/hire-l2l3support-engineers" element={<L2L2SupportEngineers/>} />
-        <Route path="/hire-laravel-developers" element={<LaravelDevelopers/>} />
-        <Route path="/hire-mern-developers" element={<MernDevelopers/>} />
-        <Route path="/hire-node-developers" element={<NodeDeveloper/>} />
-        <Route path="/hire-opensips-developers" element={<OpenSIPsDevelopers/>} />
-        <Route path="/hire-python-developers" element={<PythonDeveloper/>} />
-        <Route path="/hire-qa-engineers" element={<QAEngineers/>} />
-        <Route path="/hire-react-developers" element={<ReactDeveloper/>} />
-        <Route path="/hire-reactnative-developers" element={<ReactNativeDevelopers/>} />
-        <Route path="/hire-support-engineers" element={<SupportEngineers/>} />
-        <Route path="/hire-voip-developers" element={<VoIPDevelopers/>} />
-        <Route path="/hire-webrtc-developers" element={<WebRtcDeveloper/>} />
-
+        <Route
+          path="/hire-android-developers"
+          element={<AndroidDevelopers />}
+        />
+        <Route
+          path="/hire-asterisk-developers"
+          element={<AsteriskDeveloper />}
+        />
+        <Route path="/hire-aws-engineers" element={<AWSCertifiedEngineers />} />
+        <Route
+          path="/hire-aws-migration-engineers"
+          element={<AWSMigrationEngineers />}
+        />
+        <Route path="/hire-devops-engineers" element={<DevOpsEngineers />} />
+        <Route
+          path="/hire-freeswitch-developers"
+          element={<FreeSwitchDevelopers />}
+        />
+        <Route path="/hire-ios-developers" element={<IosDevelopers />} />
+        <Route
+          path="/hire-kamailio-developers"
+          element={<KamailioDevelopers />}
+        />
+        <Route
+          path="/hire-l2l3support-engineers"
+          element={<L2L2SupportEngineers />}
+        />
+        <Route
+          path="/hire-laravel-developers"
+          element={<LaravelDevelopers />}
+        />
+        <Route path="/hire-mern-developers" element={<MernDevelopers />} />
+        <Route path="/hire-node-developers" element={<NodeDeveloper />} />
+        <Route
+          path="/hire-opensips-developers"
+          element={<OpenSIPsDevelopers />}
+        />
+        <Route path="/hire-python-developers" element={<PythonDeveloper />} />
+        <Route path="/hire-qa-engineers" element={<QAEngineers />} />
+        <Route path="/hire-react-developers" element={<ReactDeveloper />} />
+        <Route
+          path="/hire-reactnative-developers"
+          element={<ReactNativeDevelopers />}
+        />
+        <Route path="/hire-support-engineers" element={<SupportEngineers />} />
+        <Route path="/hire-voip-developers" element={<VoIPDevelopers />} />
+        <Route path="/hire-webrtc-developers" element={<WebRtcDeveloper />} />
         //VoIP Solutions
-        <Route path="/audio-video-conference" element={<AudioVideoConfSolution/>} />
-        <Route path="/business-phone-system" element={<BusinessPhoneSystem/>} />
-        <Route path="/contact-center-solution" element={<ContactCenterSolution/>} />
-        <Route path="/dynamic-ivr-solution" element={<DynamicIvrSolution/>} />
-        <Route path="/enterprise-voip-solution" element={<EnterpriseVoipSolution/>} />
-        <Route path="/foip-telepresence" element={<FoipTelepresence/>} />
-        <Route path="/hosted-pbx-solution" element={<HostedPbxSolutions/>} />
-        <Route path="/sms-broadcasting-system" element={<SmsBroadcastingSystem/>} />
-        <Route path="/unified-communication-solution" element={<UnifiedCommunicationSolution/>} />
-        <Route path="/communication-api" element={<CommunicationApi/>} />
-        <Route path="/software defined-telecom" element={<SoftwareDefinedTelecom/>} />
-        <Route path="/voip-billing-system" element={<VoipBillingSystem/>} />
-        <Route path="/small-business-voip-solution" element={<SmallBusinessVoipSolution/>} />
-        <Route path="/enterprise-contact-center" element={<EnterpriseContactCenter/>} />
-
+        <Route
+          path="/audio-video-conference"
+          element={<AudioVideoConfSolution />}
+        />
+        <Route
+          path="/business-phone-system"
+          element={<BusinessPhoneSystem />}
+        />
+        <Route
+          path="/contact-center-solution"
+          element={<ContactCenterSolution />}
+        />
+        <Route path="/dynamic-ivr-solution" element={<DynamicIvrSolution />} />
+        <Route
+          path="/enterprise-voip-solution"
+          element={<EnterpriseVoipSolution />}
+        />
+        <Route path="/foip-telepresence" element={<FoipTelepresence />} />
+        <Route path="/hosted-pbx-solution" element={<HostedPbxSolutions />} />
+        <Route
+          path="/sms-broadcasting-system"
+          element={<SmsBroadcastingSystem />}
+        />
+        <Route
+          path="/unified-communication-solution"
+          element={<UnifiedCommunicationSolution />}
+        />
+        <Route path="/communication-api" element={<CommunicationApi />} />
+        <Route
+          path="/software defined-telecom"
+          element={<SoftwareDefinedTelecom />}
+        />
+        <Route path="/voip-billing-system" element={<VoipBillingSystem />} />
+        <Route
+          path="/small-business-voip-solution"
+          element={<SmallBusinessVoipSolution />}
+        />
+        <Route
+          path="/enterprise-contact-center"
+          element={<EnterpriseContactCenter />}
+        />
         //Offerings -- VoIP
-        <Route path="/asterisk" element={<Asterisk/>} />
-        <Route path="/freeswitch" element={<FreeSwitch/>} />
-        <Route path="/kamailio" element={<Kamailio/>} />
-        <Route path="/opensips" element={<OpenSips/>} />
-        <Route path="/webrtc" element={<WebRTc/>} />
-        
-        
+        <Route path="/asterisk" element={<Asterisk />} />
+        <Route path="/freeswitch" element={<FreeSwitch />} />
+        <Route path="/kamailio" element={<Kamailio />} />
+        <Route path="/opensips" element={<OpenSips />} />
+        <Route path="/webrtc" element={<WebRTc />} />
       </Routes>
       <Footer />
     </Router>

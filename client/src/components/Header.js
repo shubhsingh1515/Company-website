@@ -637,19 +637,7 @@ const Header = () => {
                             React Native Developers
                           </a>
                         </li>
-                        <li>
-                          <a
-                            href="/hire-aws-migration-engineers"
-                            className="flex items-center  hover:gradient-text-hover text-lg"
-                          >
-                            <img
-                              src="\assets\icons\AyanshtechAdvantage\icon3.png"
-                              alt="AWS Migration Engineer Icon"
-                              className="h-14 w-14 mr-2"
-                            />
-                            AWS Migration Engineers
-                          </a>
-                        </li>
+
                         <li>
                           <a
                             href="/hire-webrtc-developers"
@@ -746,19 +734,7 @@ const Header = () => {
                             QA Engineers
                           </a>
                         </li>
-                        <li>
-                          <a
-                            href="/hire-l2l3support-engineers"
-                            className="flex items-center  hover:gradient-text-hover text-lg"
-                          >
-                            <img
-                              src="\assets\icons\AyanshtechAdvantage\icon3.png"
-                              alt="L2/L3 Support Engineer Icon"
-                              className="h-14 w-14 mr-2"
-                            />
-                            L2/L3 Support Engineers
-                          </a>
-                        </li>
+
                         <li>
                           <a
                             href="/hire-python-developers"
@@ -829,6 +805,19 @@ const Header = () => {
                             Support Engineers
                           </a>
                         </li>
+                        <li>
+                          <a
+                            href="/hire-l2l3support-engineers"
+                            className="flex items-center  hover:gradient-text-hover text-lg"
+                          >
+                            <img
+                              src="\assets\icons\AyanshtechAdvantage\icon3.png"
+                              alt="L2/L3 Support Engineer Icon"
+                              className="h-14 w-14 mr-2"
+                            />
+                            L2/L3 Support Engineers
+                          </a>
+                        </li> 
                       </ul>
                     </div>
                     <div>
@@ -844,6 +833,19 @@ const Header = () => {
                               className="h-14 w-14 mr-2"
                             />
                             AWS Certified Engineers
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/hire-aws-migration-engineers"
+                            className="flex items-center  hover:gradient-text-hover text-lg"
+                          >
+                            <img
+                              src="\assets\icons\AyanshtechAdvantage\icon3.png"
+                              alt="AWS Migration Engineer Icon"
+                              className="h-14 w-14 mr-2"
+                            />
+                            AWS Migration Engineers
                           </a>
                         </li>
                         <li>
@@ -1167,7 +1169,7 @@ const Header = () => {
               onMouseEnter={() => handleMouseEnter("voip-solutions")}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="text-sm font-bold leading-6 text-gray-900">
+              <button className="text-sm font-bold leading-6 text-gray-900 hover:text-blue-700">
                 VoIP Solutions
               </button>
               {openDropdown === "voip-solutions" && (
@@ -1298,7 +1300,7 @@ const Header = () => {
               onMouseEnter={() => handleMouseEnter("hire-developers")}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="text-sm font-bold leading-6 text-gray-900">
+              <button className="text-sm font-bold leading-6 text-gray-900 hover:text-blue-700">
                 Hire Developers
               </button>
               {openDropdown === "hire-developers" && (
@@ -1476,7 +1478,7 @@ const Header = () => {
               onMouseEnter={() => handleMouseEnter("approach")}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="text-sm font-bold leading-6 text-gray-900">
+              <button className="text-sm font-bold leading-6 text-gray-900 hover:text-blue-700">
                 Approach
               </button>
               {openDropdown === "approach" && (
@@ -1520,67 +1522,13 @@ const Header = () => {
               )}
             </div>
 
-            <div
-              onMouseEnter={() => handleMouseEnter("about")}
-              onMouseLeave={handleMouseLeave}
-            >
-              <button className="text-sm font-bold leading-6 text-gray-900 ">
-                About
-              </button>
-              {openDropdown === "about" && (
-                <div className="p-4  rounded-lg">
-                  {/* Dropdown content for Offerings */}
-                  <ul class="text-left space-y-2">
-                    <li>
-                      <a
-                        href="/company-overview"
-                        class="text-black hover:text-blue-700"
-                      >
-                        Company Overview
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/careers" class="text-black hover:text-blue-700">
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/become-channel-partner"
-                        class="text-black hover:text-blue-700"
-                      >
-                        Become a Channel Partner
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/resources"
-                        class="text-black hover:text-blue-700"
-                      >
-                        Resources
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/iso-certification"
-                        class="text-black hover:text-blue-700"
-                      >
-                        ISO Certification
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blog" class="text-black hover:text-blue-700">
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/news" class="text-black hover:text-blue-700">
-                        News
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              )}
+            <div>
+              <a
+                href="/contactus"
+                className="text-sm font-bold leading-6 text-gray-900 hover:text-blue-700"
+              >
+                <button type="button">About</button>
+              </a>
             </div>
           </div>
         </div>
