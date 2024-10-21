@@ -4,7 +4,7 @@ import Home from "./pages/Home.js";
 import Footer from "./components/Footer.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Blogs from "./pages/Blogs.js";
-import Contact from "./pages/headerSection/Contact.js";
+import Contact from "./pages/Contact.js";
 import VoIPBusinessSolutions from "./pages/VoipBusinessSolutions.js";
 import WebMobileSolutions from "./pages/webMobileSolutions.js";
 import ConsultancyAndDiscovery from "./pages/ConsultancyAndDiscovery.js";
@@ -45,12 +45,14 @@ import SoftwareDefinedTelecom from "./pages/voipSolutions/SoftwareDefinedTelecom
 import VoipBillingSystem from "./pages/voipSolutions/VoipBillingSystem.js";
 import SmallBusinessVoipSolution from "./pages/voipSolutions/SmallBusinessVoipSolution.js";
 import EnterpriseContactCenter from "./pages/voipSolutions/EnterpriseContactCenter.js";
+
 //Offerings
 import FreeSwitch from "./pages/offerings/voip/FreeSwitch.js";
 import Asterisk from "./pages/offerings/voip/Asterisk.js";
 import Kamailio from "./pages/offerings/voip/Kamailio.js";
 import OpenSips from "./pages/offerings/voip/OpenSips.js";
 import WebRTc from "./pages/offerings/voip/WebRTc.js";
+import AiComponent from "./components/AiComponent.js";
 
 function App() {
   return (
@@ -167,7 +169,9 @@ function App() {
         <Route path="/kamailio" element={<Kamailio />} />
         <Route path="/opensips" element={<OpenSips />} />
         <Route path="/webrtc" element={<WebRTc />} />
+        <Route path="/ai" element={<AiComponent />} />
       </Routes>
+
       <Footer />
     </Router>
   );
