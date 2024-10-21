@@ -52,7 +52,6 @@ import Asterisk from "./pages/offerings/voip/Asterisk.js";
 import Kamailio from "./pages/offerings/voip/Kamailio.js";
 import OpenSips from "./pages/offerings/voip/OpenSips.js";
 import WebRTc from "./pages/offerings/voip/WebRTc.js";
-import AiComponent from "./components/AiComponent.js";
 
 function App() {
   return (
@@ -169,7 +168,6 @@ function App() {
         <Route path="/kamailio" element={<Kamailio />} />
         <Route path="/opensips" element={<OpenSips />} />
         <Route path="/webrtc" element={<WebRTc />} />
-        <Route path="/ai" element={<AiComponent />} />
       </Routes>
 
       <Footer />

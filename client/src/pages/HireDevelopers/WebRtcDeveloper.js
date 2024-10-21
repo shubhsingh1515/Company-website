@@ -28,10 +28,10 @@ const WebRtcDeveloper = () => {
               With extensive industry experience, our WebRTC developers create
               sophisticated audio and video communication systems by allowing
               video, voice, and generic data to be transmitted between peers.
-              Enterprises hire expert WebRTC developers from Ayanshtech to operate
-              at the top of their potential since modern browsers and native
-              clients for all major platforms support the technology. WebRTC
-              technologies are executed as an open web standard and are
+              Enterprises hire expert WebRTC developers from Ayanshtech to
+              operate at the top of their potential since modern browsers and
+              native clients for all major platforms support the technology.
+              WebRTC technologies are executed as an open web standard and are
               functional in all major browsers as regular JavaScript APIs. We
               have a team of hard-working and cognizant WebRTC developers for
               hire who are highly adaptable, making them a great asset to your
@@ -138,8 +138,8 @@ const WebRtcDeveloper = () => {
           Seasoned NodeJs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          NodeJS developers for hire from Ayanshtech get your business applications
-          running in no time.
+          NodeJS developers for hire from Ayanshtech get your business
+          applications running in no time.
         </p>
       </div>
 
