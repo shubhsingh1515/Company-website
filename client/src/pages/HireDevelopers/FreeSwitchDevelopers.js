@@ -14,9 +14,9 @@ const FreeSwitchDevelopers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire FreeSWITCH Developers
             </h2>
@@ -26,9 +26,9 @@ const FreeSwitchDevelopers = () => {
               FreeSWITCH developer to develop solutions for your company.
               <br /> <br />
               Ayanshtech provides ability and practicality to its clients. Hire
-              FreeSWITCH programmers from Ayanshtech who have mastered the subject.
-              Our team understands the architecture and platform know-how,
-              allowing us to provide professional FreeSWITCH solution
+              FreeSWITCH programmers from Ayanshtech who have mastered the
+              subject. Our team understands the architecture and platform
+              know-how, allowing us to provide professional FreeSWITCH solution
               development services. We can work around the clock to develop a
               FreeSWITCH solution, whether you require a single tenant to
               improve business communication or a multitenant to establish a new
@@ -229,7 +229,9 @@ const FreeSwitchDevelopers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
+                activeIndex === index
+                  ? "bg-blue-600 text-white px-5 rounded-2xl"
+                  : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>

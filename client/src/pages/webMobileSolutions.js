@@ -25,7 +25,7 @@ const WebMobileSolutions = () => {
         </button>
       </div>
 
-      <div className="bg-white py-5 px-10 w-full">
+      <div className="bg-white py-5 px-5 w-full">
         <div className="flex flex-col lg:flex-row items-center lg:space-x-16">
           <div className="flex justify-center lg:w-1/4 mb-12 lg:mb-0">
             <img
@@ -35,7 +35,7 @@ const WebMobileSolutions = () => {
             />
           </div>
 
-          <div className="lg:w-3/4 text-center lg:text-left">
+          <div className="lg:w-3/4 text-center lg:text-left p-6">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Expert Web App Development Company
             </h2>
@@ -68,10 +68,11 @@ const WebMobileSolutions = () => {
           custom VoIP Solutions to improvise your business communication needs.
         </p>
       </div>
-      <img src="/assets/images/webDevProcess.png" alt="development steps" className="max-w-8xl "
+      <img
+        src="/assets/images/webDevProcess.png"
+        alt="development steps"
+        className="max-w-8xl "
       />
-
-      
 
       <div className="text-center mb-16 mt-10">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
@@ -179,7 +180,6 @@ const WebMobileSolutions = () => {
           </div>
         </div>
       </div>
-
 
       <div className="bg-white ">
         <div className="bg-white">
@@ -397,7 +397,7 @@ const WebMobileSolutions = () => {
             Successfully helped enterprises all across the globe to scale.
           </p>
           <div className="flex justify-center gap-16">
-           <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <img
                 src="\assets\icons\phone-icon.svg"
                 alt="Email"

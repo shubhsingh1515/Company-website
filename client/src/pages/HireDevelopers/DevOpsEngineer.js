@@ -14,9 +14,9 @@ const DevOpsEngineers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire Skilled DevOps Engineers
             </h2>
@@ -25,16 +25,16 @@ const DevOpsEngineers = () => {
               hassle-free? If yes, then your answer is DevOps. The enterprises
               that adopt DevOps culture, practices, and tools successfully make,
               deploy high-performing, collaborative, fast, result-driven
-              products and services. Hire team of DevOps engineers from Ayanshtech
-              to avail the best development and operations process amalgamated
-              into one.
+              products and services. Hire team of DevOps engineers from
+              Ayanshtech to avail the best development and operations process
+              amalgamated into one.
               <br /> <br />
               So, what are you waiting for? If you want to build and deploy your
               products 2X faster than your competitors, it’s high time for you
-              to hire DevOps engineers team from Ayanshtech. Our DevOps engineers
-              have rich experience in the tools, techniques, methodologies, and
-              processes that improve productivity and collaboration and help you
-              achieve your business goals.
+              to hire DevOps engineers team from Ayanshtech. Our DevOps
+              engineers have rich experience in the tools, techniques,
+              methodologies, and processes that improve productivity and
+              collaboration and help you achieve your business goals.
             </p>
             <button className="bg-blue-700 text-white py-2 px-4 rounded-full mt-6">
               Get Started
@@ -57,8 +57,8 @@ const DevOpsEngineers = () => {
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
           Our team of DevOps developers is skilled in handling complex solutions
-          that will scale up your business. Hire DevOps programmer from Ayanshtech
-          who are highly professional in the services.
+          that will scale up your business. Hire DevOps programmer from
+          Ayanshtech who are highly professional in the services.
         </p>
       </div>
 
@@ -170,8 +170,8 @@ const DevOpsEngineers = () => {
 
               <div>
                 <p className="text-lg">
-                  DevOps engineers and managers at Ayanshtech are highly trained,
-                  certified, and well-versed.
+                  DevOps engineers and managers at Ayanshtech are highly
+                  trained, certified, and well-versed.
                 </p>
               </div>
             </div>
@@ -233,7 +233,9 @@ const DevOpsEngineers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
+                activeIndex === index
+                  ? "bg-blue-600 text-white px-5 rounded-2xl"
+                  : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>

@@ -17,10 +17,10 @@ const MernDevelopers = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+    <div className="min-h-screen flex flex-col items-center justify-center py-5 mt-20">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  ">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire Mern Developers
             </h2>
@@ -36,8 +36,8 @@ const MernDevelopers = () => {
               MERN developers have extensive experience and knowledge of working
               with related javascript frameworks. They understand the 3-tier
               architecture requirements and create stunning and
-              performance-driven applications. Ayanshtech provides support to all
-              types of industries with their MERN developers. Build your
+              performance-driven applications. Ayanshtech provides support to
+              all types of industries with their MERN developers. Build your
               business with the requisite technological support from us now if
               you hire dedicated mern developers from Ayanshtech.
             </p>
@@ -156,8 +156,9 @@ const MernDevelopers = () => {
           Seasoned MERN Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Hire MERN developers from Ayanshtech to get full-stack knowledge of MERN
-          technology, more innovative applications, and a better time to market.
+          Hire MERN developers from Ayanshtech to get full-stack knowledge of
+          MERN technology, more innovative applications, and a better time to
+          market.
         </p>
       </div>
 

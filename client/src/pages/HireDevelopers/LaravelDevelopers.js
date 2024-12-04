@@ -14,9 +14,9 @@ const LaravelDevelopers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire Laravel Developers
             </h2>
@@ -30,8 +30,8 @@ const LaravelDevelopers = () => {
               <br />
               <br />
               Hire dedicated Laravel developers to work on your project
-              impeccably. Developers from Ayanshtech work for your subsequent web
-              app development and our Laravel programmers for hire have a
+              impeccably. Developers from Ayanshtech work for your subsequent
+              web app development and our Laravel programmers for hire have a
               thorough understanding of the framework and vast abilities and
               expertise in developing all types and sizes of apps using it.
             </p>

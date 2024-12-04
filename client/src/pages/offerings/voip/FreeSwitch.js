@@ -33,14 +33,16 @@ const FreeSwitch = () => {
     setActIndex(index === actIndex ? null : index);
   };
   const scrollToContact = () => {
-    document.getElementById("contact-section").scrollIntoView({ behavior: "smooth" });
+    document
+      .getElementById("contact-section")
+      .scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20 sm:mb-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               FreeSWITCH Development
             </h2>
@@ -65,7 +67,10 @@ const FreeSwitch = () => {
               with its technical finesse. We offer cloud-hosted APIs, commercial
               support for FreeSWITCH, and custom development.
             </p>
-            <button onClick={scrollToContact} className="bg-blue-700 text-white  hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 font-semibold py-2 px-4 rounded-full mt-6">
+            <button
+              onClick={scrollToContact}
+              className="bg-blue-700 text-white  hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 font-semibold py-2 px-4 rounded-full mt-6"
+            >
               Get Started
             </button>
           </div>
@@ -85,8 +90,8 @@ const FreeSwitch = () => {
           Features of FreeSWITCH Solutions
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-          Ayanshtech builds single and multi-tenant solutions for its clients using
-          FreeSWITCH, with voice mail, intercom, and call groups.
+          Ayanshtech builds single and multi-tenant solutions for its clients
+          using FreeSWITCH, with voice mail, intercom, and call groups.
         </p>
       </div>
 
@@ -375,18 +380,22 @@ const FreeSwitch = () => {
         </div>
       </div>
 
-      <div className="bg-green-50 p-10 mb-20 rounded-3xl">
+      <div className="bg-green-50 p-6 sm:p-8 mb-12 sm:mb-16 rounded-3xl">
         {/* Title Section */}
-        <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
+        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-6">
           Key Points of FreeSWITCH
         </h2>
+        <p className="text-center text-base sm:text-lg md:text-xl text-gray-700 mb-8">
+          Explore the critical aspects and benefits of using FreeSWITCH to
+          optimize communication solutions.
+        </p>
 
         {/* Navigation Bar */}
-        <div className="flex justify-center space-x-8 mb-4">
+        <div className="flex justify-center flex-wrap gap-6 sm:gap-8 mb-4">
           {pointsData.map((point, index) => (
             <button
               key={index}
-              className={`text-lg font-medium ${
+              className={`text-base sm:text-lg font-medium ${
                 activeIndex === index
                   ? "text-blue-600 underline"
                   : "text-gray-500"
@@ -399,8 +408,8 @@ const FreeSwitch = () => {
         </div>
 
         {/* Content Section */}
-        <div className="text-center mx-auto p-4  border-gray-300">
-          <p className="text-lg text-gray-600 mt-4">
+        <div className="text-center max-w-5xl mx-auto p-4 border-gray-300">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-4">
             {pointsData[activeIndex].content}
           </p>
         </div>
@@ -412,11 +421,11 @@ const FreeSwitch = () => {
             FreeSWITCH Consulting and Support Services
           </h1>
           <p className="text-gray-600 sm:text-base md:text-lg lg:text-xl max-w-7xl mx-auto">
-            Ayanshtech provides FreeSWITCH consulting and support services ranging
-            from simple installation and configuration to complex deployments.
-            Our team of experts with in-depth knowledge of FreeSWITCH can help
-            organizations develop the best suitable, customized, and scalable
-            solutions for their business.
+            Ayanshtech provides FreeSWITCH consulting and support services
+            ranging from simple installation and configuration to complex
+            deployments. Our team of experts with in-depth knowledge of
+            FreeSWITCH can help organizations develop the best suitable,
+            customized, and scalable solutions for their business.
           </p>
         </div>
 
@@ -437,7 +446,10 @@ const FreeSwitch = () => {
         </div>
 
         <div className="text-center">
-          <button  onClick={scrollToContact} className="bg-blue-600 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 text-white font-semibold py-3 px-6 rounded-full text-lg transition duration-300">
+          <button
+            onClick={scrollToContact}
+            className="bg-blue-600 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 text-white font-semibold py-3 px-6 rounded-full text-lg transition duration-300"
+          >
             Schedule a Free Session Today!
           </button>
         </div>
@@ -466,16 +478,12 @@ const FreeSwitch = () => {
           </div>
         ))}
       </div>
-      
 
-     
-
-      
-
-      <div id="contact-section"> <ContactUs /></div>
-      
+      <div id="contact-section">
+        {" "}
+        <ContactUs />
+      </div>
     </div>
-    
   );
 };
 

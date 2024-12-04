@@ -56,7 +56,7 @@ const SmallBusinessVoipSolution = () => {
             />
           </div>
 
-          <div className="lg:w-3/4 text-center lg:text-left">
+          <div className="lg:w-3/4 text-center lg:text-left p-6">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               What is Small Business VoIP?
             </h2>

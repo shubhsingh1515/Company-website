@@ -18,13 +18,13 @@ const NodeDeveloper = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 p-6">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire NodeJs Developers
             </h2>
-            <p className="sm:text-base md:text-lg lg:text-lg  leading-relaxed mb-3">
+            <p className="sm:text-base md:text-lg lg:text-lg leading-relaxed mb-3">
               One of the best Javascript frameworks is Node. For the back-end
               purpose of any type of application that requires scalability and
               high performance, hire NodeJS developers. With NodeJs Framework,
@@ -34,9 +34,9 @@ const NodeDeveloper = () => {
               <br />
               <br />
               If you are looking to hire NodeJs developers, you have reached the
-              right place. At Ayanshtech, you can easily hire Node developers who
-              rank high in the industry and start the digital journey of your
-              business.
+              right place. At Ayanshtech, you can easily hire Node developers
+              who rank high in the industry and start the digital journey of
+              your business.
             </p>
             <button
               onClick={scrollToContact}
@@ -128,8 +128,8 @@ const NodeDeveloper = () => {
           Seasoned NodeJs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        NodeJS developers for hire from Ayanshtech get your
-        business applications running in no time.
+          NodeJS developers for hire from Ayanshtech get your business
+          applications running in no time.
         </p>
       </div>
 
@@ -153,7 +153,8 @@ const NodeDeveloper = () => {
 
               <div>
                 <p className="text-lg">
-                Lightweight and swift-based applications that are scalable in real-time
+                  Lightweight and swift-based applications that are scalable in
+                  real-time
                 </p>
               </div>
             </div>
@@ -166,7 +167,7 @@ const NodeDeveloper = () => {
               />
               <div>
                 <p className="text-lg">
-                Stable architecture which is up to date and structured
+                  Stable architecture which is up to date and structured
                 </p>
               </div>
             </div>
@@ -179,7 +180,8 @@ const NodeDeveloper = () => {
               />
               <div>
                 <p className="text-lg">
-                Develop secure APIs for high performing apps with the Node framework
+                  Develop secure APIs for high performing apps with the Node
+                  framework
                 </p>
               </div>
             </div>
@@ -191,7 +193,7 @@ const NodeDeveloper = () => {
               />
               <div>
                 <p className="text-lg">
-                Custom solutions are per business requirements
+                  Custom solutions are per business requirements
                 </p>
               </div>
             </div>

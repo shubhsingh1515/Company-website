@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Contact from "../../components/Contact.js";
 import { hireAndroidFaqs } from "../../components/faqData.js";
 import GetInTouch from "../../components/GetInTouch.js";
@@ -13,9 +13,9 @@ const AndroidDevelopers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire Android Developers
             </h2>
@@ -32,12 +32,12 @@ const AndroidDevelopers = () => {
               <br />
               <br />
               You can always and anytime prioritize expert android application
-              developer for hire from Ayanshtech to newly usher your business in a
-              lucrative direction.
+              developer for hire from Ayanshtech to newly usher your business in
+              a lucrative direction.
             </p>
             <button className="bg-blue-700 text-white py-2 px-4 rounded-full mt-6">
-            Get Started
-             </button>
+              Get Started
+            </button>
           </div>
           <div className="flex justify-center mt-5 mb-12 lg:mb-0">
             <img
@@ -200,7 +200,7 @@ const AndroidDevelopers = () => {
         </div>
       </div>
 
-      <AyanshtechAdvantage /> 
+      <AyanshtechAdvantage />
 
       <div className="max-w-3xl mx-auto p-6 py-20 w-full">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8">
@@ -211,7 +211,9 @@ const AndroidDevelopers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
+                activeIndex === index
+                  ? "bg-blue-600 text-white px-5 rounded-2xl"
+                  : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>
@@ -228,7 +230,7 @@ const AndroidDevelopers = () => {
 
       <Contact />
 
-      <GetInTouch/>
+      <GetInTouch />
     </div>
   );
 };

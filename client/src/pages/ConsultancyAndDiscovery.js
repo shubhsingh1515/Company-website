@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { ConsultancyAndDiscoveryFaqs } from "../components/faqData.js";
 
-
 const ConsultancyAndDiscovery = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -30,7 +29,7 @@ const ConsultancyAndDiscovery = () => {
         </button>
       </div>
 
-      <div className="bg-white py-5 px-10 w-full">
+      <div className="bg-white py-5 px-5 w-full">
         <div className="flex flex-col lg:flex-row items-center lg:space-x-16">
           <div className="flex justify-center lg:w-1/4 mb-12 lg:mb-0">
             <img
@@ -40,7 +39,7 @@ const ConsultancyAndDiscovery = () => {
             />
           </div>
 
-          <div className="lg:w-3/4 text-center lg:text-left">
+          <div className="lg:w-3/4 text-center lg:text-left p-6">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-2">
               Road To Your Dream Software Solution
             </h2>
@@ -72,9 +71,8 @@ const ConsultancyAndDiscovery = () => {
           Building Stellar Solutions
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 mt-4 max-w-7xl mx-auto ">
-          Our team of skilled developers constructs software solution
-          fine-tuned to your business objectives, facilitating faster
-          time-to-market.
+          Our team of skilled developers constructs software solution fine-tuned
+          to your business objectives, facilitating faster time-to-market.
         </p>
 
         <div className=" py-10 flex justify-center">
@@ -387,7 +385,7 @@ const ConsultancyAndDiscovery = () => {
             Successfully helped enterprises all across the globe to scale.
           </p>
           <div className="flex justify-center gap-16">
-          <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <img
                 src="\assets\icons\phone-icon.svg"
                 alt="Email"

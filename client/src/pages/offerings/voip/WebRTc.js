@@ -40,9 +40,9 @@ const WebRTc = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20 sm:mb-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               OpenSIPS Software Development Services
             </h2>
@@ -311,18 +311,18 @@ const WebRTc = () => {
         </div>
       </div>
 
-      <div className="bg-green-50 p-10 mb-20 rounded-3xl">
+      <div className="bg-green-50 p-6 sm:p-8 mb-12 sm:mb-16 rounded-3xl">
         {/* Title Section */}
-        <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
+        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-6">
           Pain Points & Solutions
         </h2>
 
         {/* Navigation Bar */}
-        <div className="flex justify-center space-x-8 mb-4">
+        <div className="flex justify-center flex-wrap gap-6 sm:gap-8 mb-4">
           {pointsData.map((point, index) => (
             <button
               key={index}
-              className={`text-lg font-medium ${
+              className={`text-base sm:text-lg font-medium ${
                 activeIndex === index
                   ? "text-blue-600 underline"
                   : "text-gray-500"
@@ -335,8 +335,8 @@ const WebRTc = () => {
         </div>
 
         {/* Content Section */}
-        <div className="text-center mx-auto p-4  border-gray-300">
-          <p className="text-lg text-gray-600 mt-4">
+        <div className="text-center max-w-5xl mx-auto p-4 border-gray-300">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-4">
             {pointsData[activeIndex].content}
           </p>
         </div>

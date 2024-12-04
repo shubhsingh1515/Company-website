@@ -18,9 +18,9 @@ const VoIPDevelopers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire VoIP Developers
             </h2>
@@ -29,10 +29,11 @@ const VoIPDevelopers = () => {
               phone calls over the internet. VoIP is an excellent choice for
               businesses trying to save money on communications because it is
               often significantly less expensive than traditional phone rates.
-              With Ayanshtech, create a multi-feature, unified communications hub
-              with a VoIP solution for your business. Enable your employees to
-              communicate and collaborate on multiple channels. Hire VoIP
-              experts from Ayanshtech to derive maximum value out of your business.
+              With Ayanshtech, create a multi-feature, unified communications
+              hub with a VoIP solution for your business. Enable your employees
+              to communicate and collaborate on multiple channels. Hire VoIP
+              experts from Ayanshtech to derive maximum value out of your
+              business.
             </p>
             <button
               onClick={scrollToContact}
@@ -150,8 +151,8 @@ const VoIPDevelopers = () => {
 
               <div>
                 <p className="text-lg">
-                  Hire VoIP experts from Ayanshtech as a team of professional and
-                  experienced developers
+                  Hire VoIP experts from Ayanshtech as a team of professional
+                  and experienced developers
                 </p>
               </div>
             </div>

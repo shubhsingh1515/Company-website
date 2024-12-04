@@ -14,9 +14,9 @@ const AWSMigrationEngineers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire AWS Migration Engineers
             </h2>
@@ -56,54 +56,53 @@ const AWSMigrationEngineers = () => {
       </div>
 
       <div className="bg-white p-8">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div className="flex items-center space-x-4">
-      <img
-        src="/assets/icons/consultancyDiscovery/1.svg"
-        alt="icon"
-        className="w-14 h-14"
-      />
-      <p className="text-lg">AWS Infrastructure Management</p>
-    </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="flex items-center space-x-4">
+            <img
+              src="/assets/icons/consultancyDiscovery/1.svg"
+              alt="icon"
+              className="w-14 h-14"
+            />
+            <p className="text-lg">AWS Infrastructure Management</p>
+          </div>
 
-    <div className="flex items-center space-x-4">
-      <img
-        src="/assets/icons/consultancyDiscovery/2.svg"
-        alt="icon"
-        className="w-14 h-14"
-      />
-      <p className="text-lg">AWS Architect Experts</p>
-    </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="/assets/icons/consultancyDiscovery/2.svg"
+              alt="icon"
+              className="w-14 h-14"
+            />
+            <p className="text-lg">AWS Architect Experts</p>
+          </div>
 
-    <div className="flex items-center space-x-4">
-      <img
-        src="/assets/icons/consultancyDiscovery/3.svg"
-        alt="icon"
-        className="w-14 h-14"
-      />
-      <p className="text-lg">AWS Cloud Practitioner</p>
-    </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="/assets/icons/consultancyDiscovery/3.svg"
+              alt="icon"
+              className="w-14 h-14"
+            />
+            <p className="text-lg">AWS Cloud Practitioner</p>
+          </div>
 
-    <div className="flex items-center space-x-4">
-      <img
-        src="/assets/icons/consultancyDiscovery/4.svg"
-        alt="icon"
-        className="w-14 h-14"
-      />
-      <p className="text-lg">AWS Certified Developers</p>
-    </div>
+          <div className="flex items-center space-x-4">
+            <img
+              src="/assets/icons/consultancyDiscovery/4.svg"
+              alt="icon"
+              className="w-14 h-14"
+            />
+            <p className="text-lg">AWS Certified Developers</p>
+          </div>
 
-    <div className="flex items-center space-x-4">
-      <img
-        src="/assets/icons/consultancyDiscovery/1.svg"
-        alt="icon"
-        className="w-14 h-14"
-      />
-      <p className="text-lg">Experts in AWS Data Migration</p>
-    </div>
-  </div>
-</div>
-
+          <div className="flex items-center space-x-4">
+            <img
+              src="/assets/icons/consultancyDiscovery/1.svg"
+              alt="icon"
+              className="w-14 h-14"
+            />
+            <p className="text-lg">Experts in AWS Data Migration</p>
+          </div>
+        </div>
+      </div>
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
@@ -188,7 +187,7 @@ const AWSMigrationEngineers = () => {
         </div>
       </div>
 
-       <AyanshtechAdvantage/>
+      <AyanshtechAdvantage />
 
       <div className="max-w-3xl mx-auto p-6 py-20 w-full">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8">
@@ -199,7 +198,9 @@ const AWSMigrationEngineers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
+                activeIndex === index
+                  ? "bg-blue-600 text-white px-5 rounded-2xl"
+                  : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>

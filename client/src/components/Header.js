@@ -45,18 +45,25 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-white w-full fixed top-0 left-0 z-40">
+    <header className="bg-white w-full fixed top-0 left-0 z-40 shadow-md">
       <div className="max-w-7xl mx-auto">
-        <nav className="flex justify-between p-6 lg:px-4" aria-label="Global">
-          <a href="/" className="text-2xl font-bold mr-20">
-            <div className="flex items-center space-x-2">
-              <img src="/assets/logo.png" alt="Logo" className="h-12 w-12" />
-              <div>
-                <h1 className="text-lg font-bold">Ayanshtech Solutions</h1>
-                <p className="sm:hidden text-sm text-blue-700 font-bold">
-                  A Place of Innovation
-                </p>
-              </div>
+        <nav
+          className="flex items-center justify-between p-6 lg:px-4"
+          aria-label="Global Navigation"
+        >
+          <a href="/" className="flex items-center space-x-3">
+            <img
+              src="/assets/logo.png"
+              alt="Ayanshtech Solutions Logo"
+              className="h-12 w-12"
+            />
+            <div>
+              <h1 className="text-lg font-bold text-gray-900">
+                Ayanshtech Solutions
+              </h1>
+              <p className="hidden sm:block text-sm text-blue-700 font-medium">
+                A Place of Innovation
+              </p>
             </div>
           </a>
 
@@ -817,7 +824,7 @@ const Header = () => {
                             />
                             L2/L3 Support Engineers
                           </a>
-                        </li> 
+                        </li>
                       </ul>
                     </div>
                     <div>
@@ -1405,7 +1412,7 @@ const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="/hirel2l3-support-engineers"
+                        href="/hire-l2l3support-engineers"
                         class="text-black hover:text-blue-700"
                       >
                         L2/L3 Support Engineers
@@ -1455,7 +1462,7 @@ const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="/hire-aws-certified-engineers"
+                        href="/hire-aws-engineers"
                         class="text-black hover:text-blue-700"
                       >
                         AWS Certified Engineers
@@ -1463,7 +1470,7 @@ const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="/hire-devops-engineer"
+                        href="/hire-devops-engineers"
                         class="text-black hover:text-blue-700"
                       >
                         DevOps Engineer

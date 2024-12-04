@@ -32,7 +32,7 @@ const VoIPBusinessSolutions = () => {
         </button>
       </div>
 
-      <div className="bg-white py-5 px-10 w-full">
+      <div className="bg-white py-5 px-5 w-full">
         <div className="flex flex-col lg:flex-row items-center lg:space-x-16">
           <div className="flex justify-center lg:w-1/4 mb-12 lg:mb-0">
             <img
@@ -42,7 +42,7 @@ const VoIPBusinessSolutions = () => {
             />
           </div>
 
-          <div className="lg:w-3/4 text-center lg:text-left">
+          <div className="lg:w-3/4 text-center lg:text-left p-6">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Stay Ahead with Robust VoIP Solutions
             </h2>

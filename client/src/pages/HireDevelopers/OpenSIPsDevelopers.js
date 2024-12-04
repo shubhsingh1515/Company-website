@@ -18,17 +18,27 @@ const OpenSIPsDevelopers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            Hire OpenSIPs Developer
+              Hire OpenSIPs Developer
             </h2>
             <p className="sm:text-base md:text-lg lg:text-lg  leading-relaxed mb-3">
-            OpenSIPs has a modular architecture with an efficient routing engine. If you are looking for a multi-purpose SIP server, OpenSIPs solution can be beneficial for the purpose of providing development services. You can hire OpenSIPs developer from us as it is used as a technology by many telecom players. For advanced solutions, get access to expert OpenSIPs solution development targeting optimal business output.
+              OpenSIPs has a modular architecture with an efficient routing
+              engine. If you are looking for a multi-purpose SIP server,
+              OpenSIPs solution can be beneficial for the purpose of providing
+              development services. You can hire OpenSIPs developer from us as
+              it is used as a technology by many telecom players. For advanced
+              solutions, get access to expert OpenSIPs solution development
+              targeting optimal business output.
               <br />
               <br />
-              When you hire OpenSIPs developers for OpenSIPS Development, your business can leverage the benefits of the technology large-handedly. With experts at the fastest SIP servers, build your business for tomorrow or have OpenSIPS consulting service to understand your requirements.
+              When you hire OpenSIPs developers for OpenSIPS Development, your
+              business can leverage the benefits of the technology
+              large-handedly. With experts at the fastest SIP servers, build
+              your business for tomorrow or have OpenSIPS consulting service to
+              understand your requirements.
             </p>
             <button
               onClick={scrollToContact}
@@ -50,10 +60,13 @@ const OpenSIPsDevelopers = () => {
 
       <div className="text-center mb-5 mt-20">
         <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-        Expertise Of Our OpenSIPs Developers
+          Expertise Of Our OpenSIPs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        OpenSIPs is a large open-source community. Our seasoned developers are all set with their knowledge to aid your business requirements. You can leverage OpenSIPS solution Development from Ayanshtech to redefine your ROI.
+          OpenSIPs is a large open-source community. Our seasoned developers are
+          all set with their knowledge to aid your business requirements. You
+          can leverage OpenSIPS solution Development from Ayanshtech to redefine
+          your ROI.
         </p>
       </div>
 
@@ -83,9 +96,7 @@ const OpenSIPsDevelopers = () => {
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">WebRTC to SIP gateway
-
-</p>
+            <p className="text-lg">WebRTC to SIP gateway</p>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -94,9 +105,7 @@ const OpenSIPsDevelopers = () => {
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">Class 4/5 Softswitch
-
-</p>
+            <p className="text-lg">Class 4/5 Softswitch</p>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -105,9 +114,7 @@ const OpenSIPsDevelopers = () => {
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">SIP/SDP/RTP protocols
-
-</p>
+            <p className="text-lg">SIP/SDP/RTP protocols</p>
           </div>
           <div className="flex items-center space-x-4">
             <img
@@ -115,9 +122,7 @@ const OpenSIPsDevelopers = () => {
               alt="icon"
               className="w-14 h-14"
             />
-            <p className="text-lg">WSS/DTLS-SRTP protocols
-
-</p>
+            <p className="text-lg">WSS/DTLS-SRTP protocols</p>
           </div>
         </div>
       </div>
@@ -127,8 +132,8 @@ const OpenSIPsDevelopers = () => {
           Seasoned OpenSIPs Developers
         </h2>
         <p className="sm:text-base md:text-lg lg:text-xl text-gray-600 font-semibold mt-4 max-w-6xl mx-auto">
-        Hire expert OpenSIPs developers from Ayanshtech to gain
-        freedom from technical aspects of development.
+          Hire expert OpenSIPs developers from Ayanshtech to gain freedom from
+          technical aspects of development.
         </p>
       </div>
 
@@ -152,7 +157,7 @@ const OpenSIPsDevelopers = () => {
 
               <div>
                 <p className="text-lg">
-                Ability to develop customized session border controllers
+                  Ability to develop customized session border controllers
                 </p>
               </div>
             </div>
@@ -165,7 +170,7 @@ const OpenSIPsDevelopers = () => {
               />
               <div>
                 <p className="text-lg">
-                Create futuristic solutions for VoIP solutions and technology
+                  Create futuristic solutions for VoIP solutions and technology
                 </p>
               </div>
             </div>
@@ -178,7 +183,8 @@ const OpenSIPsDevelopers = () => {
               />
               <div>
                 <p className="text-lg">
-                Offer top-level solutions for the installation, customization, and custom services
+                  Offer top-level solutions for the installation, customization,
+                  and custom services
                 </p>
               </div>
             </div>
@@ -190,7 +196,7 @@ const OpenSIPsDevelopers = () => {
               />
               <div>
                 <p className="text-lg">
-                Cost-effective solution to VoIP and similar requirements
+                  Cost-effective solution to VoIP and similar requirements
                 </p>
               </div>
             </div>
@@ -202,7 +208,8 @@ const OpenSIPsDevelopers = () => {
               />
               <div>
                 <p className="text-lg">
-                Build top-notch applications for the telecom industry with expertise
+                  Build top-notch applications for the telecom industry with
+                  expertise
                 </p>
               </div>
             </div>

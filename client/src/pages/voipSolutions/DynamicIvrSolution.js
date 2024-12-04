@@ -202,9 +202,7 @@ const ContactCenterSolution = () => {
                 alt="icon"
                 className="w-14 h-14"
               />
-              <p className="text-lg">
-                Track and report customer complaints/grievance
-              </p>
+              <p className="text-lg">Track and report customer complaints</p>
             </div>
             <div className="flex items-center space-x-4">
               <img
@@ -414,8 +412,7 @@ const ContactCenterSolution = () => {
       </div>
 
       <div className="bg-green-50 p-8 mb-20 rounded-3xl">
-        {/* Title Section */}
-        <h2 className="text-center sm:4xl md:5xl lg:text-6xl font-bold text-black mb-6">
+        <h2 className="text-center text-3xl sm:text-3xl md:text-5xl lg:text-5xl font-bold text-black mb-6">
           Tailored IVR Solution
         </h2>
         <p className="text-center text-lg text-gray-700 mb-8">
@@ -425,8 +422,7 @@ const ContactCenterSolution = () => {
           several pain points that are combated using IVR solution.
         </p>
 
-        {/* Navigation Bar */}
-        <div className="flex justify-center space-x-8 mb-4">
+        <div className="flex flex-wrap justify-center gap-8 mb-4">
           {pointsData.map((point, index) => (
             <button
               key={index}
@@ -443,7 +439,7 @@ const ContactCenterSolution = () => {
         </div>
 
         {/* Content Section */}
-        <div className="text-center max-w-5xl mx-auto p-4  border-gray-300">
+        <div className="text-center max-w-5xl mx-auto p-4 border-gray-300">
           <p className="text-lg text-gray-600 mt-4">
             {pointsData[activeIndex].content}
           </p>

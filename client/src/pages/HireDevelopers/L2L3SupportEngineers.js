@@ -14,9 +14,9 @@ const L2L2SupportEngineers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-20">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire L2/L3 Support Engineers
             </h2>
@@ -26,10 +26,10 @@ const L2L2SupportEngineers = () => {
               issue and offer a quick solution.
               <br />
               <br />
-              Technical help for any VoIP issue is given via Ayanshtech. The L2/L3
-              Technical Support Engineer will resolve the queries that the L1
-              engineer escalates or routes in consultation with the customer. In
-              addition, they’ll occasionally collaborate with the L1 Support
+              Technical help for any VoIP issue is given via Ayanshtech. The
+              L2/L3 Technical Support Engineer will resolve the queries that the
+              L1 engineer escalates or routes in consultation with the customer.
+              In addition, they’ll occasionally collaborate with the L1 Support
               Engineer to find a solution for the customer. This is why you must
               take L2/L3 support engineers from us for hire.
             </p>

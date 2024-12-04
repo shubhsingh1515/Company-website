@@ -14,9 +14,9 @@ const AWSCertifiedEngineers = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-10 mt-15">
-      <div className="bg-white py-5 px-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center lg:space-x-16 ml-10 mt-10">
-          <div className="lg:w-3/4 text-center lg:text-left ">
+      <div className="bg-white py-5 px-5 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-16  mt-10">
+          <div className="lg:w-3/4 text-center lg:text-left p-6 ">
             <h2 className="sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Hire AWS Developers
             </h2>
@@ -29,9 +29,9 @@ const AWSCertifiedEngineers = () => {
               testing environments. AWS certified professionals bring the best
               to your plate and help you redefine your business output.
               <br /> <br />
-              When you hire AWS Certified Engineer from Ayanshtech, you are hiring
-              one of the best resources for your business. Our AWS certified
-              engineers know how to build, maintain and manage the AWS
+              When you hire AWS Certified Engineer from Ayanshtech, you are
+              hiring one of the best resources for your business. Our AWS
+              certified engineers know how to build, maintain and manage the AWS
               infrastructure.
             </p>
             <button className="bg-blue-700 text-white py-2 px-4 rounded-full mt-6">
@@ -211,7 +211,9 @@ const AWSCertifiedEngineers = () => {
             <button
               onClick={() => toggleFAQ(index)}
               className={`w-full text-left py-4 flex justify-between items-center focus:outline-none ${
-                activeIndex === index ? "bg-blue-600 text-white px-5 rounded-2xl" : ""
+                activeIndex === index
+                  ? "bg-blue-600 text-white px-5 rounded-2xl"
+                  : ""
               }`}
             >
               <span className="text-lg">{faq.question}</span>

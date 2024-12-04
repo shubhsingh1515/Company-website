@@ -44,6 +44,7 @@ import SoftwareDefinedTelecom from "./pages/voipSolutions/SoftwareDefinedTelecom
 import VoipBillingSystem from "./pages/voipSolutions/VoipBillingSystem.js";
 import SmallBusinessVoipSolution from "./pages/voipSolutions/SmallBusinessVoipSolution.js";
 import EnterpriseContactCenter from "./pages/voipSolutions/EnterpriseContactCenter.js";
+import IosDevelopers from "./pages/HireDevelopers/IosDevelopers.js";
 
 //Offerings
 import FreeSwitch from "./pages/offerings/voip/FreeSwitch.js";
@@ -118,6 +119,7 @@ function App() {
         <Route path="/hire-support-engineers" element={<SupportEngineers />} />
         <Route path="/hire-voip-developers" element={<VoIPDevelopers />} />
         <Route path="/hire-webrtc-developers" element={<WebRtcDeveloper />} />
+        <Route path="/hire-ios-developers" element={<IosDevelopers />} />
         //VoIP Solutions
         <Route
           path="/audio-video-conference"
